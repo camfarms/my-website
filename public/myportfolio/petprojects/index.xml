@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>petProjects on Terminal</title>
+    <link>/myportfolio/petprojects/</link>
+    <description>Recent content in petProjects on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Oct 2021 16:20:15 -0400</lastBuildDate><atom:link href="/myportfolio/petprojects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>passwordEncryption</title>
+      <link>/myportfolio/petprojects/passwordencryption/</link>
+      <pubDate>Mon, 11 Oct 2021 16:19:53 -0400</pubDate>
+      
+      <guid>/myportfolio/petprojects/passwordencryption/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>raspberryPiMediaHub</title>
+      <link>/myportfolio/petprojects/raspberrypimediahub/</link>
+      <pubDate>Mon, 11 Oct 2021 16:20:15 -0400</pubDate>
+      
+      <guid>/myportfolio/petprojects/raspberrypimediahub/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

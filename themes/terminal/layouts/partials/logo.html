@@ -1,0 +1,6 @@
+<a href="{{ if .IsHome }}{{ $.Site.BaseURL }}{{else}}{{.Parent.URL}}{{ end }}">
+  <div class="logo" style="text-decoration: underline">
+    <!-- {{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}Terminal{{ end }} -->
+    {{ if not (.IsHome) }}{{ .Params.workingDirectory }}{{ else }}~/root/{{end}}
+  </div>
+</a>

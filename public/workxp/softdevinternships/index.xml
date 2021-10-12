@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>softDevInternships on Terminal</title>
+    <link>/workxp/softdevinternships/</link>
+    <description>Recent content in softDevInternships on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Oct 2021 16:52:16 -0400</lastBuildDate><atom:link href="/workxp/softdevinternships/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAP</title>
+      <link>/workxp/softdevinternships/sap/</link>
+      <pubDate>Mon, 11 Oct 2021 16:18:39 -0400</pubDate>
+      
+      <guid>/workxp/softdevinternships/sap/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>solutionStreet</title>
+      <link>/workxp/softdevinternships/solutionstreet/</link>
+      <pubDate>Mon, 11 Oct 2021 16:18:55 -0400</pubDate>
+      
+      <guid>/workxp/softdevinternships/solutionstreet/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>inSilicoSolutions</title>
+      <link>/workxp/softdevinternships/insilicosolutions/</link>
+      <pubDate>Mon, 11 Oct 2021 16:52:16 -0400</pubDate>
+      
+      <guid>/workxp/softdevinternships/insilicosolutions/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
