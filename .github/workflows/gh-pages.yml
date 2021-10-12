@@ -32,7 +32,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          external_repository: camfarms/mywebsite.github.io
+          external_repository: camfarms/my-website.github.io
           user_name: camfarms
           user_email: ccf35@case.edu
           publish_branch: main
