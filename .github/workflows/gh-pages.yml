@@ -30,7 +30,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
+          external_repository: camfarms/mywebsite.github.io
+          user_name: camfarms
+          user_email: ccf35@case.edu
+          publish_branch: main
 
