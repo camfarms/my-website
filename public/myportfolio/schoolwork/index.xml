@@ -5,27 +5,6 @@
     <link>/myportfolio/schoolwork/</link>
     <description>Recent content in schoolWork on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 16:20:56 -0400</lastBuildDate><atom:link href="/myportfolio/schoolwork/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>caseFunFinder</title>
-      <link>/myportfolio/schoolwork/casefunfinder/</link>
-      <pubDate>Mon, 11 Oct 2021 16:20:56 -0400</pubDate>
-      
-      <guid>/myportfolio/schoolwork/casefunfinder/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>tortoiseSpotify</title>
-      <link>/myportfolio/schoolwork/tortoisespotify/</link>
-      <pubDate>Mon, 11 Oct 2021 16:20:46 -0400</pubDate>
-      
-      <guid>/myportfolio/schoolwork/tortoisespotify/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
+    <language>en-us</language><atom:link href="/myportfolio/schoolwork/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
