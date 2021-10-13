@@ -2,12 +2,15 @@
 title = "aboutMe"
 author = "Cameron Farmer (duh)"
 workingDirectory = "~/root/aboutMe.md"
+date = "2021-10-13"
 +++
 
 # Hi there
 
 My name is Cameron Farmer, and I would like to tell you a little bit about myself! But before I
 do, here are some quick links to my [resume](/CF_Resume_pdf.pdf) and [unofficial transcript](/unofficial_transcript.pdf). 
+
+{{< figure src="/img/about/emilyWedding.jpg" caption="(From left to right) Maddie, Emily, and Me at Emily's wedding" >}}
 
 I am a soon-to-be graduate of Case Western Reserve of University with a Bachelor's of Science in
 Computer Science. My professional interests lie within the realm of Software Development -- I 
