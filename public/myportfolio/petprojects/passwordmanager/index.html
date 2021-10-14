@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>passwordManager :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I am ashamed to admit that I used to be a password reuser (*gasp!*) -- if a hacker ever got ahold of my one and only password, my online security could have been completely compromised! Well, a few months ago I decided to rectify this by writing my own password manager. Check it out!" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/myportfolio/petprojects/passwordmanager/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Cameron Farmer" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="passwordManager">
+<meta property="og:description" content="I am ashamed to admit that I used to be a password reuser (*gasp!*) -- if a hacker ever got ahold of my one and only password, my online security could have been completely compromised! Well, a few months ago I decided to rectify this by writing my own password manager. Check it out!" />
+<meta property="og:url" content="/myportfolio/petprojects/passwordmanager/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-10-13 14:14:04 -0400 EDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/myportfolio/petprojects/">
+  <div class="logo" style="text-decoration: underline">
+    
+    ~/root/myPortfolio/petProjects/passwordManager.md
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/aboutme">aboutMe</a></li>
+        
+      
+        
+          <li><a href="/myportfolio">myPortfolio</a></li>
+        
+      
+        
+          <li><a href="/workxp">workXp</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/aboutme">aboutMe</a></li>
+      
+    
+      
+        <li><a href="/myportfolio">myPortfolio</a></li>
+      
+    
+      
+        <li><a href="/workxp">workXp</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/myportfolio/petprojects/passwordmanager/">passwordManager</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-10-13 
+      </span>
+    
+    
+    <span class="post-author">:: Cameron Farmer</span>
+    
+  </div>
+  
+  
+
+  
+
+  
+    <div class="table-of-contents">
+      <h2>
+        
+          Table of Contents
+        
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#links">Links</a>
+      <ul>
+        <li><a href="#demo">Demo</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-method">The Method</a>
+      <ul>
+        <li><a href="#encryption">Encryption</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-interface">The Interface</a></li>
+    <li><a href="#the-code">The Code</a></li>
+    <li><a href="#screenshots">Screenshots</a>
+      <ul>
+        <li><a href="#the-textfile">The Textfile</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>After learning about the <a href="https://privacysavvy.com/password/guides/reusing-passwords/" target="_blank" rel="noopener">risks of reusing passwords</a>
+ I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all of my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the <a href="https://www.forbes.com/sites/leemathews/2021/06/29/details-on-700-million-linkedin-users-for-sale-on-notorious-hacking-forum/?sh=6c337b3234a4" target="_blank" rel="noopener">LinkedIn hack</a>
+ in which thousands of users had their username and passwords stolen. I had no way of knowing whether my information had been compromised or not, but if it had someone could see my LinkedIn password and use that to access another dozen of my accounts!</p>
+<p>This freaked me out and spurred me to take action. I decided that it was time I come up with a way of safely storing my login information, and I started work on my own password manager.</p>
+<h2 id="links">Links<a href="#links" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Check out the source code on my <a href="https://github.com/camfarms/SecureLoginPHP" target="_blank" rel="noopener">github</a>
+!</p>
+<h3 id="demo">Demo<a href="#demo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<blockquote>
+<p>Check out my demo on my YouTube channel
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/6MwuE5ZzHd8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+</blockquote>
+<h2 id="the-method">The Method<a href="#the-method" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>When starting this project my two main considerations were <strong>convenience and security</strong>. How could I protect my login profiles from prying eyes, while still making it easily accessible? After some brainstorming, I decided that I wanted to keep all of my passwords locally on my machine for ease-of-access, but didn&rsquo;t want them stored in plain text in case anyone got into my computer and could read my files.</p>
+<p>In order to make this possible, I needed some way to <strong>encrypt</strong> my login information before saving it locally.</p>
+<h3 id="encryption">Encryption<a href="#encryption" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<blockquote>
+<p>I didn&rsquo;t know much about encryption, so I started doing some research and found a method that would serve my purposes. I won&rsquo;t go too deeply into detail on the encryption, but here&rsquo;s the gist:</p>
+<ul>
+<li>Given a <strong>key</strong>, the algorithm will encode a given string, converting it into a long nonsense-looking sequence of characters called a <strong>cipher text</strong>.</li>
+<li>Any <strong>cipher text</strong> generated by this algorithm can be decoded and converted back to the original string as long as the same <strong>key</strong> is provided to do the decoding.</li>
+</ul>
+</blockquote>
+<h2 id="the-interface">The Interface<a href="#the-interface" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Once I had determined my method of security I got to work on making a convenient implementation. For the sake of simplicity, I decided to make my password manager a script that I could run from terminal. At the time, I had been using PHP for one of my classes and decided it was the language for the job.</p>
+<p>To use my terminal based password manager, you must first enter a <strong>cryptographic key</strong>. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You are able to navigate through the different menus of the script by entering commands into the command line. Here&rsquo;s what it looks like when you first start it up:
+
+  <img src="/img/passManager/passManagerUsage.png"  class="left"  />
+
+</p>
+<h2 id="the-code">The Code<a href="#the-code" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Here is the code behind that beautiful starting menu:
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox" checked />
+    <label for="1">
+      <span class="collapsable-code__language">php</span>
+      <span class="collapsable-code__title">Script&rsquo;s usage menu</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-php" ><code>
+function usage(){
+	echo &#34;\033[92mUsage: Type a command below to begin
+		exit   ........................................  exit this script
+		list   ........................................  list all saved login profiles
+		add, [OPTIONAL NAME] ..........................  create a new profile, and save its encrypted login information		
+		del, [OPTIONAL NAME] ..........................  delete an existing password
+		look,  [OPTIONAL NAME] ........................  lookup the plaintext username and password of a profile
+		update, [OPTIONAL NAME] .......................  update a profile&#39;s name, and plaintext username and password
+			\033[39m\n\n&#34;;
+}
+</code></pre>
+  </div>
+
+</p>
+<p>The script works by continually waiting for input commands. Each valid command (i.e. exit, list, etc.) has its own PHP class that implements an interface called <strong>Command</strong>.
+Here is the command interface, and the <strong>$exit</strong> class overwriting the interface&rsquo;s functions:
+
+
+
+  <div class="collapsable-code">
+    <input id="2" type="checkbox" checked />
+    <label for="2">
+      <span class="collapsable-code__language">php</span>
+      <span class="collapsable-code__title">Command interface and $exit class</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-php" ><code>
+interface Command{
+	public function execute($args);
+	public function isValid($args);
+	public function help();
+	public function error();
+}
+
+$exit = new class implements Command{
+	public function execute($args){
+		global $handle;
+		echo &#34;Exiting...&#34;;
+		fclose($handle);
+		exit;
+	}
+
+	public function isValid($args){
+		return count($args) == 1;
+	}
+
+	public function help(){
+		echo &#34;exit - exits the program. Accepts no arguments\n&#34;;
+	}
+
+	public function error(){
+		echo &#34;\033[91mERROR: Invalid exit command syntax\n&#34;;
+		echo &#34;\033[39m&#34;;
+	}
+};
+</code></pre>
+  </div>
+
+</p>
+<p>Once a string is entered by the user, it is first checked to make sure it is a valid command. If it is, the class <strong>execute($args)</strong> function for that command is called. Here is the input loop:
+
+
+
+  <div class="collapsable-code">
+    <input id="3" type="checkbox" checked />
+    <label for="3">
+      <span class="collapsable-code__language">php</span>
+      <span class="collapsable-code__title">Input loop</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-php" ><code>
+//Map of acceptable commands 
+$commands = array(&#34;exit&#34; =&gt; $exit, &#34;list&#34; =&gt; $list, &#34;add&#34; =&gt; $add, &#34;del&#34; =&gt; $del, &#34;look&#34; =&gt; $look, &#34;update&#34; =&gt; $update);
+
+//Open standard in
+$handle = fopen (&#34;php://stdin&#34;,&#34;r&#34;);
+echo &#34;Enter cryptographic key to encode and decode passwords:\n&#34;;
+$key = trim(fgets($handle));
+usage();
+
+//user input loop
+while(true){
+	$in = trim(fgets($handle));
+	$args = explode(&#39;,&#39;, $in);
+	$command = $args[0];
+
+	if (in_array($command, array_keys($commands))) {
+		if($commands[$command]-&gt;isValid($args)){
+			$commands[$command]-&gt;execute($args);
+		}
+		else{
+			$commands[$command]-&gt; error();
+			$commands[$command]-&gt;help();
+			mainmenu();
+
+		}
+	}	
+	else{
+		echo &#34;\033[91mERROR: Not a valid command.\n&#34;;
+		mainmenu();
+	}
+</code></pre>
+  </div>
+
+</p>
+<h2 id="screenshots">Screenshots<a href="#screenshots" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>To see the saved login profiles, you use the <strong>list</strong> command.
+
+  <img src="/img/passManager/passManagerList.png"  class="left"  />
+
+
+In order to view the login profile&rsquo;s plaintext username and password, you use the <strong>look</strong> command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since <strong>I did not use the same crpytographic key</strong> when starting this session, the login progile will not be decoded for me to view:
+
+  <img src="/img/passManager/passManagerLook.png"  class="left"  />
+
+
+If you wanted to create a new login profile, you use the <strong>add</strong> command. The user is first prompted to enter a name for a profile, and then enter the plaintext username and password for the profile. The user also has the option to have a password randomly generated for them!
+Now, when the <strong>look</strong> command is used on the new profile, its plaintext username and password is given since it was encoded using the <strong>same cryptographic key</strong>.
+
+  <img src="/img/passManager/passManagerAdd.png"  class="left"  />
+
+</p>
+<h3 id="the-textfile">The Textfile<a href="#the-textfile" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<blockquote>
+<p>This script utilizes a textfile to save the encrypted profile information. Both the usernames and passwords are encrypted before being written to the file, and they are read in their encrypted form into the script when being looked up. Here is what the textfile looks like with its encrypted information:
+
+  <img src="/img/passManager/encryptedProfiles.png"  class="left"  />
+
+</p>
+</blockquote>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
