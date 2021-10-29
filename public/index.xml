@@ -6,7 +6,81 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 14:14:04 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 17:35:12 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>casePlace</title>
+      <link>/myportfolio/schoolwork/caseplace/</link>
+      <pubDate>Sun, 17 Oct 2021 13:31:50 -0400</pubDate>
+      
+      <guid>/myportfolio/schoolwork/caseplace/</guid>
+      <description>Intro Here is a link to our website!
+CasePlace is orientied towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.
+CasePlace is a web application that 5 peers and myself worked together to create for our Senior Project.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Here is a &lt;a href=&#34;https://case-place-5t56t.ondigitalocean.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
+ to our website!&lt;/p&gt;
+&lt;p&gt;CasePlace is orientied towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.&lt;/p&gt;
+&lt;p&gt;CasePlace is a web application that 5 peers and myself worked together to create for our Senior Project. We built this application using React (so it even works on mobile) and it utilizes the GoogleMaps API to make an interactive map of our university&amp;rsquo;s campus! It was inspired by an &lt;a href=&#34;https://webapps.case.edu/map/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;existing web-page that CWRU has linked&lt;/a&gt;
+ on their home website that we thought was too clunky and cluttered for people who are new to the campus.&lt;/p&gt;
+&lt;p&gt;We believe CasePlace is an improvement over this webpage due to the sorting functionality it offers. Newcomers to our campus are unlikely to know the names of buildings, or what they are even looking for. CasePlace simplifies this by allowing them to filter and sort the pinned locations into administrative buildings, restaurants, bus stops, etc.&lt;/p&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;For the design phase, we spent a lot of time working on wireframes in order to make sure we knew exactly what we wanted before starting program. For the purposes of wireframing we used Figma, which is like the Google Docs of wireframing. Here is an example of our very early drafts!&lt;/p&gt;
+
+  &lt;img src=&#34;/img/casePlace/earlyWireframe.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;p&gt;Once we had decided on a general layout, we began to focus more on the style and feel of our application. We thought it would be fitting to make our website match &lt;a href=&#34;https://case.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CWRU&amp;rsquo;s professional websites&lt;/a&gt;
+ for continuity purposes as these websites all share the same audience. In order to emulate CWRU&amp;rsquo;s websites, we started by using their same color palette and fonts. We then moved on to making our CSS emulate features across CWRU&amp;rsquo;s websites for buttons, modals, dropdowns, etc. Here is one of our later design drafts!&lt;/p&gt;
+
+  &lt;img src=&#34;/img/casePlace/hiResWireframe.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;p&gt;Using CWRU&amp;rsquo;s map page as a model, we took our ideas from the design phase and got to work to make it happen. Here is a side by side comparison &amp;ndash; decide for yourself whether or not we matched CWRU&amp;rsquo;s feel.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CasePlace&lt;/th&gt;
+&lt;th&gt;CWRU&amp;rsquo;s Page&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+  &lt;img src=&#34;/img/casePlace/casePlace.png&#34;  class=&#34;left&#34;  /&gt;
+&lt;/td&gt;
+&lt;td&gt;
+  &lt;img src=&#34;/img/casePlace/caseWebApp.png&#34;  class=&#34;left&#34;  /&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
+&lt;p&gt;For this project we used a variety of different languages and applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Framework: React (with CSS and HTML)&lt;/li&gt;
+&lt;li&gt;Version Control: Git&lt;/li&gt;
+&lt;li&gt;Ticketing System: Jira&lt;/li&gt;
+&lt;li&gt;Design Tool: Figma&lt;/li&gt;
+&lt;li&gt;Server Host: Digital Ocean&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Luckily for us, we were able to use Jira, Figma, and Digitcal Ocean for &lt;em&gt;FREE&lt;/em&gt; due to all of us being students!&lt;/p&gt;
+&lt;p&gt;This was my first time using React and I really enjoyed using it. It strikes me as a (maybe a little &lt;em&gt;too&lt;/em&gt;) robust, but powerful framework. I&amp;rsquo;m no expert, but I think you could make just about any web-app you want using React.&lt;/p&gt;
+&lt;h2 id=&#34;group-organization&#34;&gt;Group Organization&lt;/h2&gt;
+&lt;p&gt;Since this was a multi-month long project, it was super important to us as a group that we stayed on top of our work and made steady progress throughout the semester. In order to adhere to this, we elected one of our members, Elias, as project manager for the semester. Elias was the perfect candidate since he had just worked as a project management intern for Google the previous Summer!&lt;/p&gt;
+&lt;p&gt;We started the semester by planning out our sprints and setting dates for certain deadlines. For instance, we allotted 1 week for setting up our environments, 3 weeks for design, and 2 weeks for debugging. We also all agreed to meet with one another twice a week to hold &amp;ldquo;scrum&amp;rdquo; meetings in which we would discuss the status of our project and what we were all working on.&lt;/p&gt;
+&lt;p&gt;Elias made is super easy for all us to keep track of our tasks due to his familiarity with Jira. For each sprint, he would make a new story and break it into sub-tasks to be distributed amongst us in the group. As a result of how organized we were, we ended up ahead of schedule by the end of the semester while many groups were cramming to get their projects working.&lt;/p&gt;
+&lt;h2 id=&#34;personal-accomplishments&#34;&gt;Personal Accomplishments&lt;/h2&gt;
+&lt;p&gt;Fortunately, I worked with 5 amazing people and didn&amp;rsquo;t have to deal with people not pulling their own weight. We were an extremely cohesive group who were all committed to working on this project as if it were a professional task for a client rather than a professor.&lt;/p&gt;
+&lt;p&gt;I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figam, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components.&lt;/p&gt;
+&lt;p&gt;During the development phase I worked on both the front-end and back-end. For instance, one of my subtasks was to implement the tooltips that open when a user clicks on one of the pins on our map. This required me to write logic for an action handler in JSX that would trigger a new HTML component to appear that I styled in CSS.&lt;/p&gt;
+
+  &lt;img src=&#34;/img/casePlace/tooltip.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;p&gt;&amp;hellip; You do not want to know how long I spent trying to get the tooltip to have that tiny little triangle at the top!&lt;/p&gt;
+&lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;The success of our project was entirely due to our organization. From working on CasePlace I learned how valuable an agile development cycle can be, and how the structure it offers helps everyone on the team stay on task. Furthermore, without a good project manager and a clear division of labor (i.e. Jira) it would have been much, &lt;em&gt;much&lt;/em&gt; more difficult for us to work together effectively.&lt;/p&gt;
+&lt;p&gt;I developed a deep appreciation for well organized and structured teams &amp;ndash; it just makes everything easier!&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>passwordManager</title>
       <link>/myportfolio/petprojects/passwordmanager/</link>
@@ -47,7 +121,6 @@
 &lt;p&gt;To use my terminal based password manager, you must first enter a &lt;strong&gt;cryptographic key&lt;/strong&gt;. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You are able to navigate through the different menus of the script by entering commands into the command line. Here&amp;rsquo;s what it looks like when you first start it up:
 
   &lt;img src=&#34;/img/passManager/passManagerUsage.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;h2 id=&#34;the-code&#34;&gt;The Code&lt;/h2&gt;
 &lt;p&gt;Here is the code behind that beautiful starting menu:
@@ -172,24 +245,20 @@ while(true){
 
   &lt;img src=&#34;/img/passManager/passManagerList.png&#34;  class=&#34;left&#34;  /&gt;
 
-
 In order to view the login profile&amp;rsquo;s plaintext username and password, you use the &lt;strong&gt;look&lt;/strong&gt; command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since &lt;strong&gt;I did not use the same crpytographic key&lt;/strong&gt; when starting this session, the login progile will not be decoded for me to view:
 
   &lt;img src=&#34;/img/passManager/passManagerLook.png&#34;  class=&#34;left&#34;  /&gt;
-
 
 If you wanted to create a new login profile, you use the &lt;strong&gt;add&lt;/strong&gt; command. The user is first prompted to enter a name for a profile, and then enter the plaintext username and password for the profile. The user also has the option to have a password randomly generated for them!
 Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profile, its plaintext username and password is given since it was encoded using the &lt;strong&gt;same cryptographic key&lt;/strong&gt;.
 
   &lt;img src=&#34;/img/passManager/passManagerAdd.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;h3 id=&#34;the-textfile&#34;&gt;The Textfile&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This script utilizes a textfile to save the encrypted profile information. Both the usernames and passwords are encrypted before being written to the file, and they are read in their encrypted form into the script when being looked up. Here is what the textfile looks like with its encrypted information:
 
   &lt;img src=&#34;/img/passManager/encryptedProfiles.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
@@ -210,7 +279,7 @@ do, here are some quick links to my &lt;a href=&#34;/CF_Resume_pdf.pdf&#34; targ
 .&lt;/p&gt;
 
   &lt;figure class=&#34;left&#34; &gt;
-    &lt;img src=&#34;/img/about/emilyWedding.jpg&#34;   /&gt;
+    &lt;img src=&#34;/img/about/emilyWedding.jpg#floatright&#34;   /&gt;
     
       &lt;figcaption class=&#34;center&#34; &gt;(From left to right) Maddie, Emily, and Me at Emily&#39;s wedding&lt;/figcaption&gt;
     

@@ -47,7 +47,6 @@
 &lt;p&gt;To use my terminal based password manager, you must first enter a &lt;strong&gt;cryptographic key&lt;/strong&gt;. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You are able to navigate through the different menus of the script by entering commands into the command line. Here&amp;rsquo;s what it looks like when you first start it up:
 
   &lt;img src=&#34;/img/passManager/passManagerUsage.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;h2 id=&#34;the-code&#34;&gt;The Code&lt;/h2&gt;
 &lt;p&gt;Here is the code behind that beautiful starting menu:
@@ -172,24 +171,20 @@ while(true){
 
   &lt;img src=&#34;/img/passManager/passManagerList.png&#34;  class=&#34;left&#34;  /&gt;
 
-
 In order to view the login profile&amp;rsquo;s plaintext username and password, you use the &lt;strong&gt;look&lt;/strong&gt; command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since &lt;strong&gt;I did not use the same crpytographic key&lt;/strong&gt; when starting this session, the login progile will not be decoded for me to view:
 
   &lt;img src=&#34;/img/passManager/passManagerLook.png&#34;  class=&#34;left&#34;  /&gt;
-
 
 If you wanted to create a new login profile, you use the &lt;strong&gt;add&lt;/strong&gt; command. The user is first prompted to enter a name for a profile, and then enter the plaintext username and password for the profile. The user also has the option to have a password randomly generated for them!
 Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profile, its plaintext username and password is given since it was encoded using the &lt;strong&gt;same cryptographic key&lt;/strong&gt;.
 
   &lt;img src=&#34;/img/passManager/passManagerAdd.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;h3 id=&#34;the-textfile&#34;&gt;The Textfile&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This script utilizes a textfile to save the encrypted profile information. Both the usernames and passwords are encrypted before being written to the file, and they are read in their encrypted form into the script when being looked up. Here is what the textfile looks like with its encrypted information:
 
   &lt;img src=&#34;/img/passManager/encryptedProfiles.png&#34;  class=&#34;left&#34;  /&gt;
-
 &lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
