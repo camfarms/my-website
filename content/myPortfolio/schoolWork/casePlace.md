@@ -13,7 +13,7 @@ description = "CasePlace is a web-based application that my team and I created f
 
 Here is a [link](https://case-place-5t56t.ondigitalocean.app) to our website!
 
-CasePlace is orientied towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest. 
+CasePlace is oriented towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest. 
 
 CasePlace is a web application that 5 peers and myself worked together to create for our Senior Project. We built this application using React (so it even works on mobile) and it utilizes the GoogleMaps API to make an interactive map of our university's campus! It was inspired by an [existing web-page that CWRU has linked](https://webapps.case.edu/map/) on their home website that we thought was too clunky and cluttered for people who are new to the campus. 
 
@@ -44,7 +44,7 @@ Using CWRU's map page as a model, we took our ideas from the design phase and go
  - Design Tool: Figma
  - Server Host: Digital Ocean
 
- Luckily for us, we were able to use Jira, Figma, and Digitcal Ocean for *FREE* due to all of us being students! 
+ Luckily for us, we were able to use Jira, Figma, and Digital Ocean for *FREE* due to all of us being students! 
 
  This was my first time using React and I really enjoyed using it. It strikes me as a (maybe a little *too*) robust, but powerful framework. I'm no expert, but I think you could make just about any web-app you want using React. 
 
@@ -60,7 +60,7 @@ Using CWRU's map page as a model, we took our ideas from the design phase and go
 
 Fortunately, I worked with 5 amazing people and didn't have to deal with people not pulling their own weight. We were an extremely cohesive group who were all committed to working on this project as if it were a professional task for a client rather than a professor. 
 
-I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figam, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components. 
+I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figma, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components. 
 
 During the development phase I worked on both the front-end and back-end. For instance, one of my subtasks was to implement the tooltips that open when a user clicks on one of the pins on our map. This required me to write logic for an action handler in JSX that would trigger a new HTML component to appear that I styled in CSS. 
 
@@ -71,5 +71,3 @@ During the development phase I worked on both the front-end and back-end. For in
 ## Lessons Learned
 
 The success of our project was entirely due to our organization. From working on CasePlace I learned how valuable an agile development cycle can be, and how the structure it offers helps everyone on the team stay on task. Furthermore, without a good project manager and a clear division of labor (i.e. Jira) it would have been much, *much* more difficult for us to work together effectively. 
-
-I developed a deep appreciation for well organized and structured teams -- it just makes everything easier! 
