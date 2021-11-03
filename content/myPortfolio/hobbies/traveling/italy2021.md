@@ -15,7 +15,7 @@ Jake and I touched down at the Venice Marco Polo Airport on August 15th after tr
 
 *PICTURE OF ALL OF US HERE*
 
-Needless to say, Jake and I were exhausted and SUPER jetlagged... so that first day was a little rough and we ended up falling asleep while exploring Padova. 
+Needless to say, Jake and I were exhausted and SUPER jet lagged... so that first day was a little rough and we ended up falling asleep while exploring Padova. 
 
 *PICTURE OF JAKE PASSED OUT*
 
@@ -29,7 +29,7 @@ Our first day trip was to the city of Verona, the home of Romeo and Juliet!
 
 ### 52 Galleries
 
-Next on our list was a roadtrip to [52 galleries](https://en.wikipedia.org/wiki/Strada_delle_52_Gallerie) which is a series of 52 tunnels through the alps in Northern Italy. It is a historical site from WWI when it was used as a trail for munitions, but it also happens to be a beautiful hike!
+Next on our list was a road trip to [52 galleries](https://en.wikipedia.org/wiki/Strada_delle_52_Gallerie) which is a series of 52 tunnels through the alps in Northern Italy. It is a historical site from WWI when it was used as a trail for munitions, but it also happens to be a beautiful hike!
 
 *PICTURES FROM 52 GALLERIES*
 
@@ -41,7 +41,7 @@ Being so close, we of course spent multiple days in Venice. Our first day we mad
 
 #### Murano and Burano
 
->Murano and Burano are two of the most famous Venetian islands which are known for their beautiful glasswork and colorful homefronts respectively. 
+>Murano and Burano are two of the most famous Venetian islands which are known for their beautiful glasswork and colorful home fronts respectively. 
 
 *PICTURES FORM MURANO*
 *PICTURES FROM BURANO*

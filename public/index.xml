@@ -6,7 +6,7 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Oct 2021 17:35:12 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 13:31:56 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>casePlace</title>
       <link>/myportfolio/schoolwork/caseplace/</link>
@@ -14,12 +14,12 @@
       
       <guid>/myportfolio/schoolwork/caseplace/</guid>
       <description>Intro Here is a link to our website!
-CasePlace is orientied towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.
+CasePlace is oriented towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.
 CasePlace is a web application that 5 peers and myself worked together to create for our Senior Project.</description>
       <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Here is a &lt;a href=&#34;https://case-place-5t56t.ondigitalocean.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;
  to our website!&lt;/p&gt;
-&lt;p&gt;CasePlace is orientied towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.&lt;/p&gt;
+&lt;p&gt;CasePlace is oriented towards prospective and current students of Case Western Reserve University (CWRU) as well as any parents or guests visiting the campus. Its purpose is to make our urban campus easier to navigate by offering an interactive GoogleMap interface with pre-loaded points of interest.&lt;/p&gt;
 &lt;p&gt;CasePlace is a web application that 5 peers and myself worked together to create for our Senior Project. We built this application using React (so it even works on mobile) and it utilizes the GoogleMaps API to make an interactive map of our university&amp;rsquo;s campus! It was inspired by an &lt;a href=&#34;https://webapps.case.edu/map/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;existing web-page that CWRU has linked&lt;/a&gt;
  on their home website that we thought was too clunky and cluttered for people who are new to the campus.&lt;/p&gt;
 &lt;p&gt;We believe CasePlace is an improvement over this webpage due to the sorting functionality it offers. Newcomers to our campus are unlikely to know the names of buildings, or what they are even looking for. CasePlace simplifies this by allowing them to filter and sort the pinned locations into administrative buildings, restaurants, bus stops, etc.&lt;/p&gt;
@@ -61,7 +61,7 @@ CasePlace is a web application that 5 peers and myself worked together to create
 &lt;li&gt;Design Tool: Figma&lt;/li&gt;
 &lt;li&gt;Server Host: Digital Ocean&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Luckily for us, we were able to use Jira, Figma, and Digitcal Ocean for &lt;em&gt;FREE&lt;/em&gt; due to all of us being students!&lt;/p&gt;
+&lt;p&gt;Luckily for us, we were able to use Jira, Figma, and Digital Ocean for &lt;em&gt;FREE&lt;/em&gt; due to all of us being students!&lt;/p&gt;
 &lt;p&gt;This was my first time using React and I really enjoyed using it. It strikes me as a (maybe a little &lt;em&gt;too&lt;/em&gt;) robust, but powerful framework. I&amp;rsquo;m no expert, but I think you could make just about any web-app you want using React.&lt;/p&gt;
 &lt;h2 id=&#34;group-organization&#34;&gt;Group Organization&lt;/h2&gt;
 &lt;p&gt;Since this was a multi-month long project, it was super important to us as a group that we stayed on top of our work and made steady progress throughout the semester. In order to adhere to this, we elected one of our members, Elias, as project manager for the semester. Elias was the perfect candidate since he had just worked as a project management intern for Google the previous Summer!&lt;/p&gt;
@@ -69,7 +69,7 @@ CasePlace is a web application that 5 peers and myself worked together to create
 &lt;p&gt;Elias made is super easy for all us to keep track of our tasks due to his familiarity with Jira. For each sprint, he would make a new story and break it into sub-tasks to be distributed amongst us in the group. As a result of how organized we were, we ended up ahead of schedule by the end of the semester while many groups were cramming to get their projects working.&lt;/p&gt;
 &lt;h2 id=&#34;personal-accomplishments&#34;&gt;Personal Accomplishments&lt;/h2&gt;
 &lt;p&gt;Fortunately, I worked with 5 amazing people and didn&amp;rsquo;t have to deal with people not pulling their own weight. We were an extremely cohesive group who were all committed to working on this project as if it were a professional task for a client rather than a professor.&lt;/p&gt;
-&lt;p&gt;I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figam, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components.&lt;/p&gt;
+&lt;p&gt;I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figma, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components.&lt;/p&gt;
 &lt;p&gt;During the development phase I worked on both the front-end and back-end. For instance, one of my subtasks was to implement the tooltips that open when a user clicks on one of the pins on our map. This required me to write logic for an action handler in JSX that would trigger a new HTML component to appear that I styled in CSS.&lt;/p&gt;
 
   &lt;img src=&#34;/img/casePlace/tooltip.png&#34;  class=&#34;left&#34;  /&gt;
@@ -77,7 +77,6 @@ CasePlace is a web application that 5 peers and myself worked together to create
 &lt;p&gt;&amp;hellip; You do not want to know how long I spent trying to get the tooltip to have that tiny little triangle at the top!&lt;/p&gt;
 &lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
 &lt;p&gt;The success of our project was entirely due to our organization. From working on CasePlace I learned how valuable an agile development cycle can be, and how the structure it offers helps everyone on the team stay on task. Furthermore, without a good project manager and a clear division of labor (i.e. Jira) it would have been much, &lt;em&gt;much&lt;/em&gt; more difficult for us to work together effectively.&lt;/p&gt;
-&lt;p&gt;I developed a deep appreciation for well organized and structured teams &amp;ndash; it just makes everything easier!&lt;/p&gt;
 </content>
     </item>
     
@@ -265,6 +264,161 @@ Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profi
     </item>
     
     <item>
+      <title>caseFunFinder</title>
+      <link>/myportfolio/schoolwork/casefunfinder/</link>
+      <pubDate>Sun, 31 Oct 2021 13:31:56 -0400</pubDate>
+      
+      <guid>/myportfolio/schoolwork/casefunfinder/</guid>
+      <description>Intro Intro to Databases was one of my favorite classes during my Senior year of undergrad. During the course I learnt so much about the theory behind database structures and organization which instilled in me an appreciation how our information is stored. Databases pose their own unique problems and require elegant (and often mathematically provable) solutions. This made the class extremely exciting to me and I had a lot of fun working on the final project.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Intro to Databases was one of my favorite classes during my Senior year of undergrad. During the course I learnt so much about the theory behind database structures and organization which instilled in me an appreciation how our information is stored. Databases pose their own unique problems and require elegant (and often mathematically provable) solutions. This made the class extremely exciting to me and I had a lot of fun working on the final project.&lt;/p&gt;
+&lt;p&gt;My group and I decided to make CaseFunFinder &amp;ndash; a simple application that interfaced with a database of geographical attractions around our school (Case Western Reserve University). We started our project with a design phase during which we came up with a structure for organizing the type of information we wanted to store. Once we had decided on the arrangement of our data, we used SQL to create and populate our database&amp;rsquo;s tables. Then, we connected the database to a very basic React site we were running on localhost in order to demo our project.&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here is the demo of our database! (Thanks Randall &amp;lt;3)
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/osVOPDL2Vms&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;design&#34;&gt;Design&lt;/h2&gt;
+&lt;p&gt;The purpose of our database was to store information relevant to locations around our university and the greater Cleveland area. This posed a unique problem for us and necessitated that we come up with a clever way to organize our data. After considering a variety of solutions, we decided the most elegant way to structure our data was to categorize the locations we wanted to capture. We deliberated and elected to categorize all of our attractions into one of four groups: parks, museums/historical landmarks, theaters/performing art centers, and restaurants.&lt;/p&gt;
+&lt;p&gt;By categorizing all of our location data, we were able to create an &lt;strong&gt;is-a&lt;/strong&gt; relationship within our database. That is, we created a table for each category, as well as a table with every single attraction across all categories called &lt;strong&gt;Attractions&lt;/strong&gt;. That table contained general information attractions such as its name, address, opening time, and so on.  This enabled us to store more information specific to each category within their own respective tables &amp;ndash; for instance, each restaurant has a field for whether or not it has vegetarian options!&lt;/p&gt;
+&lt;p&gt;Each attraction also has a field called its &lt;strong&gt;fun id&lt;/strong&gt;, which acts as its unique identifier. The &lt;strong&gt;fun id&lt;/strong&gt; is used as a primary key and is necessary to utilize the aforementioned is-a relationship.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/caseFunFinder/erDiagram.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;ER Diagram for our database&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;p&gt;Our database did not stop at just attractions, however. Since it was meant to be used as part of a larger application we included a table for user information. The user table was used to store information such as the user&amp;rsquo;s name, and login information as well as a &lt;strong&gt;user id&lt;/strong&gt; which acted as a unique identifier for each user. This allowed us to expand the capability of our database when we realized we could make a relationship between users and events! This lead us to the creation of the &lt;strong&gt;Is tracking&lt;/strong&gt; and &lt;strong&gt;Is favorite&lt;/strong&gt; relationship tables which contain entries composed of two primary keys: &lt;strong&gt;user id&lt;/strong&gt; and &lt;strong&gt;fun id&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We really liked this idea of relationships between entities in different tables, we decided to take it a step further. We created an entirely new type of entity called an &lt;strong&gt;Event&lt;/strong&gt;! Events always take place at locations, so we used the structure we already had for &lt;strong&gt;attractions&lt;/strong&gt; and created a new relationship called &lt;strong&gt;Hosts&lt;/strong&gt;. Events have information such as start time and date, whether its child friendly, etc. as well as fields for event&amp;rsquo;s name AND the attraction acting as its venue.&lt;/p&gt;
+&lt;h2 id=&#34;the-code&#34;&gt;The Code&lt;/h2&gt;
+&lt;p&gt;We created this database using MySQL and MySQLWorkbench. Once we had decided on our structure, it was a simple matter of creating our tables and inserting into them. Here is how we created our attractions table:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;1&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;1&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sql&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Creation of attraction table&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sql&#34; &gt;&lt;code&gt;
+CREATE TABLE `attractions` (
+  `fun_id` int NOT NULL,
+  `attraction_name` varchar(50) NOT NULL,
+  `attraction_type` varchar(30) DEFAULT NULL,
+  `street_address` varchar(100) DEFAULT NULL,
+  `city` varchar(30) DEFAULT NULL,
+  `zip_code` int DEFAULT NULL,
+  `opening_hour` int DEFAULT NULL,
+  `closing_hour` int DEFAULT NULL,
+  `rating` decimal(2,1) DEFAULT NULL,
+  `mask_required` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`fun_id`,`attraction_name`)
+) 
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Here is how we made tables that were part of an &lt;strong&gt;is-a&lt;/strong&gt; relationship with attractions. Notice the &lt;strong&gt;REFERENCES&lt;/strong&gt; field:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;1&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;1&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sql&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Creation of restaurants table&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sql&#34; &gt;&lt;code&gt;
+CREATE TABLE `restaurants` (
+  `fun_id` int NOT NULL,
+  `rname` varchar(50) NOT NULL,
+  `owner` varchar(50) DEFAULT NULL,
+  `capacity_limit` varchar(10) DEFAULT NULL,
+  `vegetarian_options` varchar(1) DEFAULT NULL,
+  `vegan_options` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`fun_id`,`rname`),
+  KEY `fun_id_idx` (`fun_id`,`rname`),
+  CONSTRAINT `fun_id, rname` FOREIGN KEY (`fun_id`, `rname`) REFERENCES `attractions` (`fun_id`, `attraction_name`) ON DELETE CASCADE ON UPDATE CASCADE
+) 
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;And finally, here is how we made relationships between tables. Notice how the only fields for any given entity are the primary keys of the tables it is relating:&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;1&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;1&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sql&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Creation of is_tracking table&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sql&#34; &gt;&lt;code&gt;
+CREATE TABLE `is_tracking` (
+  `cwru_id` varchar(30) NOT NULL,
+  `fun_id` int NOT NULL,
+  `attraction_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`cwru_id`,`fun_id`),
+  KEY `cwru_id_idx` (`cwru_id`),
+  KEY `attraction_fun_id, attraction_name_idx` (`fun_id`,`attraction_name`),
+  CONSTRAINT `attraction_fun_id, attraction_name` FOREIGN KEY (`fun_id`, `attraction_name`) REFERENCES `attractions` (`fun_id`, `attraction_name`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `cwru_id` FOREIGN KEY (`cwru_id`) REFERENCES `users` (`cwru_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;The relationship tables posed a lot of problems due to the number of constraints they required. It took us a while to finally figure out how to create the table properly with all of the necessary checks in place. Furthermore, the entities in this table had to reference fields in other tables, which lead to a couple of bugs due to typos.&lt;/p&gt;
+&lt;h2 id=&#34;personal-accomplishments&#34;&gt;Personal Accomplishments&lt;/h2&gt;
+&lt;p&gt;I really enjoyed the design phase of this project. I contributed greatly to the &lt;strong&gt;is-a&lt;/strong&gt; relationship structure of our projects, and suggested the categorizing of attractions. Once we reached development, we all worked together to get it working, but I am particularly proud of some of the more complex queries I came up with for our demo.&lt;/p&gt;
+&lt;p&gt;For instance, check out this query:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;For each zip code, the user wants to find the attraction names and fun ids of attractions that host the maximum number of events; they then want the zip code, fun id, and attraction name of each such attraction listed.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;1&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;1&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sql&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Query for above request&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sql&#34; &gt;&lt;code&gt;
+WITH 	event_count(zip_code, host_fun_id, attraction_name, ct)
+		(SELECT 	A2.zip_code, H2.host_fun_id, A2.attraction_name, COUNT(DISTINCT  H2.event_being_hosted_fun_id)
+        FROM 		attractions A2, Hosts H2
+		WHERE 	A2.fun_id = H2.host_fun_id
+		GROUP BY 	A2.zip_code, H2.host_fun_id, A2.attraction_name),
+SELECT 	A1.zip_code, A1.fun_id, A1.attraction_name
+FROM 	attractions A1, event_count E
+WHERE 	A1.fun_id = E.host_fun_id
+AND 		E.ct = (SELECT MAX	(E2.ct)
+	        		FROM 		event-count E2
+	       		    WHERE 	A1.zip_code = E2.zip_code)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;I am extremely appreciative of this class due to the value of learning how to write queries in SQL. I think our professor did an excellent job in training us to use all of SQL&amp;rsquo;s weird little features, and demanded that we compose complex queries for homework and tests very often. This made me very comfortable using SQL and MySQLWorkbench and has left me very confident in my ability to query a database.&lt;/p&gt;
+&lt;p&gt;Furthermore, I also learned how to do a form of set mathematics that apply to databases in order to compose queries that are mathematically provably complete! I thought this was really cool since it was a direct connection between math and computer science I had never considered.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>aboutMe</title>
       <link>/aboutme/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
@@ -279,7 +433,7 @@ do, here are some quick links to my &lt;a href=&#34;/CF_Resume_pdf.pdf&#34; targ
 .&lt;/p&gt;
 
   &lt;figure class=&#34;left&#34; &gt;
-    &lt;img src=&#34;/img/about/emilyWedding.jpg#floatright&#34;   /&gt;
+    &lt;img src=&#34;/img/about/emilyWedding.jpg&#34;   /&gt;
     
       &lt;figcaption class=&#34;center&#34; &gt;(From left to right) Maddie, Emily, and Me at Emily&#39;s wedding&lt;/figcaption&gt;
     

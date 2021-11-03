@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>caseFunFinder :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CaseFunFinder is the final project my group and I made for our Introduction to Databases course. It is a simple web-based application connected to a database of attractions near Case Western Reserve University. Users can then execute a number of complicated queries on the database through its simple front-end. Check it out for yourself!" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/myportfolio/schoolwork/casefunfinder/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Cameron Farmer" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="caseFunFinder">
+<meta property="og:description" content="CaseFunFinder is the final project my group and I made for our Introduction to Databases course. It is a simple web-based application connected to a database of attractions near Case Western Reserve University. Users can then execute a number of complicated queries on the database through its simple front-end. Check it out for yourself!" />
+<meta property="og:url" content="/myportfolio/schoolwork/casefunfinder/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-10-31 13:31:56 -0400 EDT" />
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
+</head>
+<body class="blue">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/myportfolio/schoolwork/">
+  <div class="logo" style="text-decoration: underline">
+    
+    ~/root/myPortfolio/schoolWork/caseFunFinder.md
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/aboutme">aboutMe</a></li>
+        
+      
+        
+          <li><a href="/myportfolio">myPortfolio</a></li>
+        
+      
+        
+          <li><a href="/workxp">workXp</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/aboutme">aboutMe</a></li>
+      
+    
+      
+        <li><a href="/myportfolio">myPortfolio</a></li>
+      
+    
+      
+        <li><a href="/workxp">workXp</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/myportfolio/schoolwork/casefunfinder/">caseFunFinder</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-10-31 
+      </span>
+    
+    
+    <span class="post-author">:: Cameron Farmer</span>
+    
+  </div>
+  
+  
+
+  
+
+  
+    <div class="table-of-contents">
+      <h2>
+        
+          Table of Contents
+        
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#the-code">The Code</a></li>
+    <li><a href="#personal-accomplishments">Personal Accomplishments</a></li>
+    <li><a href="#lessons-learned">Lessons Learned</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Intro to Databases was one of my favorite classes during my Senior year of undergrad. During the course I learnt so much about the theory behind database structures and organization which instilled in me an appreciation how our information is stored. Databases pose their own unique problems and require elegant (and often mathematically provable) solutions. This made the class extremely exciting to me and I had a lot of fun working on the final project.</p>
+<p>My group and I decided to make CaseFunFinder &ndash; a simple application that interfaced with a database of geographical attractions around our school (Case Western Reserve University). We started our project with a design phase during which we came up with a structure for organizing the type of information we wanted to store. Once we had decided on the arrangement of our data, we used SQL to create and populate our database&rsquo;s tables. Then, we connected the database to a very basic React site we were running on localhost in order to demo our project.</p>
+<h2 id="demo">Demo<a href="#demo" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<blockquote>
+<p>Here is the demo of our database! (Thanks Randall &lt;3)
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/osVOPDL2Vms" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+</blockquote>
+<h2 id="design">Design<a href="#design" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The purpose of our database was to store information relevant to locations around our university and the greater Cleveland area. This posed a unique problem for us and necessitated that we come up with a clever way to organize our data. After considering a variety of solutions, we decided the most elegant way to structure our data was to categorize the locations we wanted to capture. We deliberated and elected to categorize all of our attractions into one of four groups: parks, museums/historical landmarks, theaters/performing art centers, and restaurants.</p>
+<p>By categorizing all of our location data, we were able to create an <strong>is-a</strong> relationship within our database. That is, we created a table for each category, as well as a table with every single attraction across all categories called <strong>Attractions</strong>. That table contained general information attractions such as its name, address, opening time, and so on.  This enabled us to store more information specific to each category within their own respective tables &ndash; for instance, each restaurant has a field for whether or not it has vegetarian options!</p>
+<p>Each attraction also has a field called its <strong>fun id</strong>, which acts as its unique identifier. The <strong>fun id</strong> is used as a primary key and is necessary to utilize the aforementioned is-a relationship.</p>
+
+  <figure class="left" >
+    <img src="/img/caseFunFinder/erDiagram.png"   />
+    
+      <figcaption class="center" >ER Diagram for our database</figcaption>
+    
+  </figure>
+
+<p>Our database did not stop at just attractions, however. Since it was meant to be used as part of a larger application we included a table for user information. The user table was used to store information such as the user&rsquo;s name, and login information as well as a <strong>user id</strong> which acted as a unique identifier for each user. This allowed us to expand the capability of our database when we realized we could make a relationship between users and events! This lead us to the creation of the <strong>Is tracking</strong> and <strong>Is favorite</strong> relationship tables which contain entries composed of two primary keys: <strong>user id</strong> and <strong>fun id</strong>.</p>
+<p>We really liked this idea of relationships between entities in different tables, we decided to take it a step further. We created an entirely new type of entity called an <strong>Event</strong>! Events always take place at locations, so we used the structure we already had for <strong>attractions</strong> and created a new relationship called <strong>Hosts</strong>. Events have information such as start time and date, whether its child friendly, etc. as well as fields for event&rsquo;s name AND the attraction acting as its venue.</p>
+<h2 id="the-code">The Code<a href="#the-code" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>We created this database using MySQL and MySQLWorkbench. Once we had decided on our structure, it was a simple matter of creating our tables and inserting into them. Here is how we created our attractions table:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">sql</span>
+      <span class="collapsable-code__title">Creation of attraction table</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-sql" ><code>
+CREATE TABLE `attractions` (
+  `fun_id` int NOT NULL,
+  `attraction_name` varchar(50) NOT NULL,
+  `attraction_type` varchar(30) DEFAULT NULL,
+  `street_address` varchar(100) DEFAULT NULL,
+  `city` varchar(30) DEFAULT NULL,
+  `zip_code` int DEFAULT NULL,
+  `opening_hour` int DEFAULT NULL,
+  `closing_hour` int DEFAULT NULL,
+  `rating` decimal(2,1) DEFAULT NULL,
+  `mask_required` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`fun_id`,`attraction_name`)
+) 
+</code></pre>
+  </div>
+
+
+<p>Here is how we made tables that were part of an <strong>is-a</strong> relationship with attractions. Notice the <strong>REFERENCES</strong> field:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">sql</span>
+      <span class="collapsable-code__title">Creation of restaurants table</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-sql" ><code>
+CREATE TABLE `restaurants` (
+  `fun_id` int NOT NULL,
+  `rname` varchar(50) NOT NULL,
+  `owner` varchar(50) DEFAULT NULL,
+  `capacity_limit` varchar(10) DEFAULT NULL,
+  `vegetarian_options` varchar(1) DEFAULT NULL,
+  `vegan_options` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`fun_id`,`rname`),
+  KEY `fun_id_idx` (`fun_id`,`rname`),
+  CONSTRAINT `fun_id, rname` FOREIGN KEY (`fun_id`, `rname`) REFERENCES `attractions` (`fun_id`, `attraction_name`) ON DELETE CASCADE ON UPDATE CASCADE
+) 
+</code></pre>
+  </div>
+
+
+<p>And finally, here is how we made relationships between tables. Notice how the only fields for any given entity are the primary keys of the tables it is relating:</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">sql</span>
+      <span class="collapsable-code__title">Creation of is_tracking table</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-sql" ><code>
+CREATE TABLE `is_tracking` (
+  `cwru_id` varchar(30) NOT NULL,
+  `fun_id` int NOT NULL,
+  `attraction_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`cwru_id`,`fun_id`),
+  KEY `cwru_id_idx` (`cwru_id`),
+  KEY `attraction_fun_id, attraction_name_idx` (`fun_id`,`attraction_name`),
+  CONSTRAINT `attraction_fun_id, attraction_name` FOREIGN KEY (`fun_id`, `attraction_name`) REFERENCES `attractions` (`fun_id`, `attraction_name`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `cwru_id` FOREIGN KEY (`cwru_id`) REFERENCES `users` (`cwru_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+)
+</code></pre>
+  </div>
+
+
+<p>The relationship tables posed a lot of problems due to the number of constraints they required. It took us a while to finally figure out how to create the table properly with all of the necessary checks in place. Furthermore, the entities in this table had to reference fields in other tables, which lead to a couple of bugs due to typos.</p>
+<h2 id="personal-accomplishments">Personal Accomplishments<a href="#personal-accomplishments" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I really enjoyed the design phase of this project. I contributed greatly to the <strong>is-a</strong> relationship structure of our projects, and suggested the categorizing of attractions. Once we reached development, we all worked together to get it working, but I am particularly proud of some of the more complex queries I came up with for our demo.</p>
+<p>For instance, check out this query:</p>
+<blockquote>
+<p><em>&ldquo;For each zip code, the user wants to find the attraction names and fun ids of attractions that host the maximum number of events; they then want the zip code, fun id, and attraction name of each such attraction listed.&quot;</em></p>
+</blockquote>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">sql</span>
+      <span class="collapsable-code__title">Query for above request</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-sql" ><code>
+WITH 	event_count(zip_code, host_fun_id, attraction_name, ct)
+		(SELECT 	A2.zip_code, H2.host_fun_id, A2.attraction_name, COUNT(DISTINCT  H2.event_being_hosted_fun_id)
+        FROM 		attractions A2, Hosts H2
+		WHERE 	A2.fun_id = H2.host_fun_id
+		GROUP BY 	A2.zip_code, H2.host_fun_id, A2.attraction_name),
+SELECT 	A1.zip_code, A1.fun_id, A1.attraction_name
+FROM 	attractions A1, event_count E
+WHERE 	A1.fun_id = E.host_fun_id
+AND 		E.ct = (SELECT MAX	(E2.ct)
+	        		FROM 		event-count E2
+	       		    WHERE 	A1.zip_code = E2.zip_code)
+</code></pre>
+  </div>
+
+
+<h2 id="lessons-learned">Lessons Learned<a href="#lessons-learned" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I am extremely appreciative of this class due to the value of learning how to write queries in SQL. I think our professor did an excellent job in training us to use all of SQL&rsquo;s weird little features, and demanded that we compose complex queries for homework and tests very often. This made me very comfortable using SQL and MySQLWorkbench and has left me very confident in my ability to query a database.</p>
+<p>Furthermore, I also learned how to do a form of set mathematics that apply to databases in order to compose queries that are mathematically provably complete! I thought this was really cool since it was a direct connection between math and computer science I had never considered.</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
