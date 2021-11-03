@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>raspPiMediaHub (WIP) :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I love watching TV shows and movies, but smart TVs are crazy expensive for no reason! I decided I would save myself some money and make my own media hub using a Raspberry Pi and the Open Source Media Center (OSMC) operating system. Check it out!" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/myportfolio/petprojects/rasppimediahub/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="Cameron Farmer" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="raspPiMediaHub (WIP)">
+<meta property="og:description" content="I love watching TV shows and movies, but smart TVs are crazy expensive for no reason! I decided I would save myself some money and make my own media hub using a Raspberry Pi and the Open Source Media Center (OSMC) operating system. Check it out!" />
+<meta property="og:url" content="/myportfolio/petprojects/rasppimediahub/" />
+<meta property="og:site_name" content="Terminal" />
+
+  
+    <meta property="og:image" content="/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-10-31 14:42:06 -0400 EDT" />
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
+</head>
+<body class="blue">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/myportfolio/petprojects/">
+  <div class="logo" style="text-decoration: underline">
+    
+    ~/root/myPortfolio/petProjects/raspPiMediaHub.md
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/aboutme">aboutMe</a></li>
+        
+      
+        
+          <li><a href="/myportfolio">myPortfolio</a></li>
+        
+      
+        
+          <li><a href="/workxp">workXp</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/aboutme">aboutMe</a></li>
+      
+    
+      
+        <li><a href="/myportfolio">myPortfolio</a></li>
+      
+    
+      
+        <li><a href="/workxp">workXp</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/myportfolio/petprojects/rasppimediahub/">raspPiMediaHub (WIP)</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-10-31 
+      </span>
+    
+    
+    <span class="post-author">:: Cameron Farmer</span>
+    
+  </div>
+  
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I am a huge movie and TV show buff which means I spend a lot of time with my laptop hooked up to my TV via and HDMI cord. However, constantly having to plug and unplug my sole laptop into the TV has gotten annoying&hellip; so I present to you the Raspberry Pi Media Center!</p>
+<p>It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access. Fortunately, I have most streaming platforms and can easily rent movies through Amazon. Assuming I can get the Pi up and running, I will soon never have to worry about forgetting my laptop and home again.</p>
+<h2 id="the-parts">The Parts<a href="#the-parts" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>From my research for this project I decided that I would use <a href="https://osmc.tv" target="_blank" rel="noopener">OSMC</a>
+ and a Raspberry Pi 4.</p>
+<p>The choice to use OSMC was a relatively simple one. The first benefit of using OSMC is its extremely easy installation, and the second is its vibrant and active community supporting it. It is an extremely popular Pi OS, and has established itself in the community of fellow Pi heads. It also does exactly what I want it to do &ndash; it mimics a media center with its own app installer and tile interface! One drawback however, is its a rather robust Pi OS (which maybe isn&rsquo;t even a bad thing?) which makes it pretty cumbersome and difficult to configure or personalize. But, for my first foray into the realm of the Raspberry Pi I&rsquo;m content to keep my training wheels on &ndash; even if it isn&rsquo;t a super lightweight.</p>
+<p>I quickly determined that a B or B+ model board would be best for me due to its ethernet port (a <strong>MUST</strong> in my opinion), HDMI/Micro-HDMI ports, and widespread use amongst people making media hubs. After learning more about the available hardware I was deciding between the Pi 3 and Pi 4 boards. The Pi 4, while being more expensive, outpaces the Pi 3 in almost every benchmark <em>BUT</em> is extremely hard to find in its B+ configuration due to its recent release. But, since I haven&rsquo;t used a Pi before and don&rsquo;t know what exactly the demand would be on the hardware, I decided to opt for the safer option and splurged on the Pi 4 B model.</p>
+<p>To complement my purchase I also bought an SD card for installing the OS, a micro-HDMI to HDMI adapter, and a cute little plastic case to keep it all safe.</p>
+
+  <figure class="left" >
+    <img src="/img/raspPiMediaHub/pi4B.png"   />
+    
+      <figcaption class="center" >Raspberry Pi 4 B</figcaption>
+    
+  </figure>
+
+<p>The parts are due to arrive this week, I can&rsquo;t wait!</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

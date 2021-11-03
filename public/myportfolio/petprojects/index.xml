@@ -6,7 +6,7 @@
     <description>Recent content in petProjects on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 14:14:04 -0400</lastBuildDate><atom:link href="/myportfolio/petprojects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 14:42:06 -0400</lastBuildDate><atom:link href="/myportfolio/petprojects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>passwordManager</title>
       <link>/myportfolio/petprojects/passwordmanager/</link>
@@ -187,6 +187,35 @@ Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profi
   &lt;img src=&#34;/img/passManager/encryptedProfiles.png&#34;  class=&#34;left&#34;  /&gt;
 &lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>raspPiMediaHub (WIP)</title>
+      <link>/myportfolio/petprojects/rasppimediahub/</link>
+      <pubDate>Sun, 31 Oct 2021 14:42:06 -0400</pubDate>
+      
+      <guid>/myportfolio/petprojects/rasppimediahub/</guid>
+      <description>Intro I am a huge movie and TV show buff which means I spend a lot of time with my laptop hooked up to my TV via and HDMI cord. However, constantly having to plug and unplug my sole laptop into the TV has gotten annoying&amp;hellip; so I present to you the Raspberry Pi Media Center!
+It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;I am a huge movie and TV show buff which means I spend a lot of time with my laptop hooked up to my TV via and HDMI cord. However, constantly having to plug and unplug my sole laptop into the TV has gotten annoying&amp;hellip; so I present to you the Raspberry Pi Media Center!&lt;/p&gt;
+&lt;p&gt;It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access. Fortunately, I have most streaming platforms and can easily rent movies through Amazon. Assuming I can get the Pi up and running, I will soon never have to worry about forgetting my laptop and home again.&lt;/p&gt;
+&lt;h2 id=&#34;the-parts&#34;&gt;The Parts&lt;/h2&gt;
+&lt;p&gt;From my research for this project I decided that I would use &lt;a href=&#34;https://osmc.tv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSMC&lt;/a&gt;
+ and a Raspberry Pi 4.&lt;/p&gt;
+&lt;p&gt;The choice to use OSMC was a relatively simple one. The first benefit of using OSMC is its extremely easy installation, and the second is its vibrant and active community supporting it. It is an extremely popular Pi OS, and has established itself in the community of fellow Pi heads. It also does exactly what I want it to do &amp;ndash; it mimics a media center with its own app installer and tile interface! One drawback however, is its a rather robust Pi OS (which maybe isn&amp;rsquo;t even a bad thing?) which makes it pretty cumbersome and difficult to configure or personalize. But, for my first foray into the realm of the Raspberry Pi I&amp;rsquo;m content to keep my training wheels on &amp;ndash; even if it isn&amp;rsquo;t a super lightweight.&lt;/p&gt;
+&lt;p&gt;I quickly determined that a B or B+ model board would be best for me due to its ethernet port (a &lt;strong&gt;MUST&lt;/strong&gt; in my opinion), HDMI/Micro-HDMI ports, and widespread use amongst people making media hubs. After learning more about the available hardware I was deciding between the Pi 3 and Pi 4 boards. The Pi 4, while being more expensive, outpaces the Pi 3 in almost every benchmark &lt;em&gt;BUT&lt;/em&gt; is extremely hard to find in its B+ configuration due to its recent release. But, since I haven&amp;rsquo;t used a Pi before and don&amp;rsquo;t know what exactly the demand would be on the hardware, I decided to opt for the safer option and splurged on the Pi 4 B model.&lt;/p&gt;
+&lt;p&gt;To complement my purchase I also bought an SD card for installing the OS, a micro-HDMI to HDMI adapter, and a cute little plastic case to keep it all safe.&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/raspPiMediaHub/pi4B.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;Raspberry Pi 4 B&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;p&gt;The parts are due to arrive this week, I can&amp;rsquo;t wait!&lt;/p&gt;
 </content>
     </item>
     

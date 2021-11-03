@@ -54,9 +54,6 @@ I think there may have been something lost in translation with this one... Ale t
 
 
 
-
-
-
 {{< image src="/img/italy2021/week1/alejakerachel.png" >}}
 
 {{< foldergallery src="img/italy2021/week1/" >}}
