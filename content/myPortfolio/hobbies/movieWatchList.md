@@ -5,7 +5,7 @@ date = "2021-11-02T20:17:04-04:00"
 workingDirectory = "~/root/myPortfolio/hobbies/movieWatchList.md"
 weight = 0 
 draft = false
-toc = false
+toc = true
 description = "I am a **huge** movie buff. Checkout what I movies I have watched most recently and my thoughts on them!"
 +++
 
