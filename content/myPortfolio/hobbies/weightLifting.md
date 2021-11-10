@@ -13,21 +13,15 @@ description = "I started weight lifting four years ago and it has since become a
 
 Physical fitness has always been extremely important to me. Without constant exercise, I start to go stir crazy and get super irritable. This was never a problem in high school when I was playing  a variety of sports and had daily practices, but since graduating and moving on to college I needed to find a new outlet. Several of my close friends in high school took up weight lifting and they introduced me to it the Summer after my Freshman year -- I quickly took to it and dived in head first after two semesters of restlessness. 
 
-Since starting, I have been lifting with varying levels of intensity. During the school semester, particularly more academically rigorous ones, I often can't lift as much as I'd like to since classes take priority. When lifting must take a back seat, my goal is to hit the gym at least 3 days a week. But, sometimes I'm lucky and school
-
-## Appeal
-
 Lifting appeals to me greatly because it is very flexible. Depending on what else I have going on in my lift, I can make lifting as rigorous or relaxed as I like. It also has tons of variation to it so I'll never get bored with it -- if I get tired to doing some exercises I'll just write a new split and start working on other stuff! 
 
-It is also entirely goal oriented with is super satisfying when you achieve those goals. You can set goals that are entirely empirical and track your progress over time towards those goals. 
+The empirical nature of it also appeals to me -- it is extremely easy to measure and track progress which makes setting goals easy. I joke sometimes that lifting is like real life Runescape, but instead of getting experience for a profession you're just getting a high max score for certain lifts. 
 
 ## Diet
 
-I have learned that diet is the number one most important thing when lifting *BY FAR*. I would go so far as to say 80% diet : 20 % working out. This is because it doesn't matter what you're doing in the gym -- whether it be 3 hour work outs 6 days a week to 30 minute workouts every other day -- if you aren't eating right. Without fuel, your body simply can't build muscle or replenish itself! 
+I have learned that diet is the number one most important thing when lifting *BY FAR*. I would go so far as to say 80% diet : 20 % working out. This is because it doesn't matter what you're doing in the gym -- if you aren't eating right, you won't build muscle. Without fuel, your body simply can't build muscle or replenish itself! 
 
-This was a tough lesson for me to learn since I have had a problem with under-eating since I was a kid. It wasn't until I started forcing myself to eat more that I finally started to see rapid progress towards my goals in the gym. It took me a while to figure out how much my body needed, but it was a relatively simple process. First, weight yourself every day at the same time on the same scale -- I do this every morning when I wake up before I shower. Second, track the number of calories you're consuming each day (don't worry about macros yet, just count calories). After about 2 weeks of doing this, see what you are averaging for calories each day, and see how your weight changes during that time. 
-
-This measurement will give you your body's caloric baseline -- i.e. the number of calories your body needs daily to replenish the calories you burn passively doing every day activities. For most men of my weight and age, this number resides within the 1800 - 2000 calorie range; my body's baseline is ~1670-1700 daily calories to maintain my current weight. 
+This was a tough lesson for me to learn since I have had a problem with under-eating since I was a kid. It wasn't until I started forcing myself to eat more that I finally started to see rapid progress towards my goals in the gym. It took me a while to figure out how much my body needed, but I now know my body's baseline is ~1670-1700 daily calories to maintain my current weight. 
 
 When attempting to gain muscle, you *MUST* hit your body's baseline calorie count each day. The fact of the matter is, its impossible to gain *ANYTHING -- fat or muscle* unless you are eating a caloric surplus. Generally, it is recommended you try to eat a surplus of 500 calories on exercise days if you want to gain ~1 lb per week. 
 
@@ -35,9 +29,12 @@ When attempting to gain muscle, you *MUST* hit your body's baseline calorie coun
 
 For the fall semester of 2021 I have had a lot of time to focus on lifting due to my academic load being relatively light. As a result, I have taken this opportunity to put on as much muscle as possible before I get busy again. This is because it is relatively easy to maintain muscle mass compared to building it (since building muscle requires much high regularity of eating and exercising). 
 
-This semester I have had the ambitious goal of exercising 6 days a week, and eating 2200+ calories each day. This dietary part has been by far the more difficult of the two since I have such a bad habit of under eating. However, I have been able to put together weekly meals that help me reach my caloric goal. 
+This semester I have had the ambitious goal of exercising 6 days a week, and eating 2200+ calories each day. This dietary part has been by far the more difficult of the two since I have such a bad habit of under eating. However, I have been able to put together weekly meals that help me reach my caloric goal. I have also set numeric goals for my sets in the gym:
 
-It is also important to have specific weight lifting goals. My first goal when starting this semester what to hit 225 on back squat, and be able to rep it out. I started off slow with squat due to my recovering from a back injury, but I have since reached my goal -- I can now hit 225 on back squat comfortably. I have now shifted my focus to the other two compound lifts: barbell bench press and dead lift. Due to concerns surrounding my back, I have decided to hold off on hitting dead lift aggressively and am focusing mostly on bench press while working to maintain my back squat. My second priority is to build up core strength in preparation for dead lifting and increased squat weight. 
+Comfortable 5x5 Weight:
+- Bench Press: 185
+- Squat: 225
+- Dead Lift: 225
 
 ### Split
 

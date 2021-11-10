@@ -67,7 +67,7 @@ CasePlace is a web application that 5 peers and myself worked together to create
 &lt;p&gt;Since this was a multi-month long project, it was super important to us as a group that we stayed on top of our work and made steady progress throughout the semester. In order to adhere to this, we elected one of our members, Elias, as project manager for the semester. Elias was the perfect candidate since he had just worked as a project management intern for Google the previous Summer!&lt;/p&gt;
 &lt;p&gt;We started the semester by planning out our sprints and setting dates for certain deadlines. For instance, we allotted 1 week for setting up our environments, 3 weeks for design, and 2 weeks for debugging. We also all agreed to meet with one another twice a week to hold &amp;ldquo;scrum&amp;rdquo; meetings in which we would discuss the status of our project and what we were all working on.&lt;/p&gt;
 &lt;p&gt;Elias made is super easy for all us to keep track of our tasks due to his familiarity with Jira. For each sprint, he would make a new story and break it into sub-tasks to be distributed amongst us in the group. As a result of how organized we were, we ended up ahead of schedule by the end of the semester while many groups were cramming to get their projects working.&lt;/p&gt;
-&lt;h2 id=&#34;personal-accomplishments&#34;&gt;Personal Accomplishments&lt;/h2&gt;
+&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;
 &lt;p&gt;Fortunately, I worked with 5 amazing people and didn&amp;rsquo;t have to deal with people not pulling their own weight. We were an extremely cohesive group who were all committed to working on this project as if it were a professional task for a client rather than a professor.&lt;/p&gt;
 &lt;p&gt;I personally worked on almost all aspects of the project, but I am especially proud of what I managed to accomplish during the design phase. While using Figma, I had the realization that I really enjoyed the challenge of designing a page that was both intuitive AND aesthetic. This pushed me to take the lead on a number of things during the design phase, such as the CSS used for our components.&lt;/p&gt;
 &lt;p&gt;During the development phase I worked on both the front-end and back-end. For instance, one of my subtasks was to implement the tooltips that open when a user clicks on one of the pins on our map. This required me to write logic for an action handler in JSX that would trigger a new HTML component to appear that I styled in CSS.&lt;/p&gt;
@@ -599,7 +599,7 @@ CREATE TABLE `is_tracking` (
 
 
 &lt;p&gt;The relationship tables posed a lot of problems due to the number of constraints they required. It took us a while to finally figure out how to create the table properly with all of the necessary checks in place. Furthermore, the entities in this table had to reference fields in other tables, which lead to a couple of bugs due to typos.&lt;/p&gt;
-&lt;h2 id=&#34;personal-accomplishments&#34;&gt;Personal Accomplishments&lt;/h2&gt;
+&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;
 &lt;p&gt;I really enjoyed the design phase of this project. I contributed greatly to the &lt;strong&gt;is-a&lt;/strong&gt; relationship structure of our projects, and suggested the categorizing of attractions. Once we reached development, we all worked together to get it working, but I am particularly proud of some of the more complex queries I came up with for our demo.&lt;/p&gt;
 &lt;p&gt;For instance, check out this query:&lt;/p&gt;
 &lt;blockquote&gt;
