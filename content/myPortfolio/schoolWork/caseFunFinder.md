@@ -87,7 +87,7 @@ CREATE TABLE `is_tracking` (
 
 The relationship tables posed a lot of problems due to the number of constraints they required. It took us a while to finally figure out how to create the table properly with all of the necessary checks in place. Furthermore, the entities in this table had to reference fields in other tables, which lead to a couple of bugs due to typos. 
 
-## Personal Accomplishments
+## My Contributions
 
 I really enjoyed the design phase of this project. I contributed greatly to the **is-a** relationship structure of our projects, and suggested the categorizing of attractions. Once we reached development, we all worked together to get it working, but I am particularly proud of some of the more complex queries I came up with for our demo. 
 

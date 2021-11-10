@@ -56,7 +56,7 @@ Using CWRU's map page as a model, we took our ideas from the design phase and go
 
  Elias made is super easy for all us to keep track of our tasks due to his familiarity with Jira. For each sprint, he would make a new story and break it into sub-tasks to be distributed amongst us in the group. As a result of how organized we were, we ended up ahead of schedule by the end of the semester while many groups were cramming to get their projects working. 
 
- ## Personal Accomplishments
+ ## My Contributions
 
 Fortunately, I worked with 5 amazing people and didn't have to deal with people not pulling their own weight. We were an extremely cohesive group who were all committed to working on this project as if it were a professional task for a client rather than a professor. 
 

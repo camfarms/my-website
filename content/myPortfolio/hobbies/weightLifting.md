@@ -5,7 +5,7 @@ date = "2021-11-04T12:34:39-04:00"
 workingDirectory = "~/root/myPortfolio/hobbies/weightLifting.md"
 weight = 0 
 draft = true
-toc = false
+toc = true
 description = "I started weight lifting four years ago and it has since become an essential part of my weekly routine. My time in the gym has become something like meditation and it has evolved into a hobby rather than just an avenue for physical exertion. Checkout my current split!"
 +++
 
@@ -48,14 +48,16 @@ Goals:
 - Maintain barbell squat and practice technique
 
 > 6 Day Split: Push -> Pull -> Legs -> Push -> Pull -> Core
-| Day    | Week Day  | Schedule |
-| ------ | --------- | -------- |
-| Push A | Monday    |  First<br>Second<br>Third        |
-| Pull A | Tuesday   |          |
-| Legs   | Wednesday |          |
-| Push B | Thursday  |          |
-| Pull B | Friday    |          |
-| Core   | Saturday  |          |
-| REST   | Sunday    |          |
+| Day    | Week Day  | Schedule                                                                                                                                                                                                                                                                                                                           | Duration |
+| ------ | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Push A | Monday    | <div><dl><dt>1) Barbell Bench Press</dt><dd>1x Warmup, 2x 5-8 Heavy, 3x 10-12 Moderate</dd><dt>2) Chest Fly x Tricep Extension (Super Set)</dt><dd>3x 10-12, 4x 7-10</dd><dt>3) Lateral Dumbbell Raise</dt><dd>4x 10-12</dd><dt>4) Shrugs</dt><dd>4x 10-12</dd><dt>5) Dips</dt><dd>3x AMRAP</dd></dl></div>                        | 75m      |
+| Pull A | Tuesday   | <dl><dt>1) Pull up</dt><dd>3x Warm up</dd><dt>2) Hammer Curl</dt><dd>3x 10-12</dd><dt>3) Reverse Grip Rows</dt><dd>3x 10-12</dd><dt>4) Cable Curls</dt><dd>3x 10-12</dd><dt>5) Cable Rows</dt><dd>2x 20 Drop Set</dd><dt>6) Dumbbell Curls</dt><dd>1x Triple Drop Set</dd></dl>                                                    | 60m      |
+| Legs   | Wednesday | <dl><dt>1) Box Jumps</dt><dd>3x Warm up</dd><dt>2) Barbell Back Squat</dt><dd>2x Warm up, 4x 8-12 Heavy, 1x AMRAP Moderate</dd><dt>3) Barbell Standing Calf Raise</dt><dd>4x 10-12 (then paritals until failure)</dd><dt>4) Hip Thrusts</dt><dd>4x 10-12</dd><dt>5) Quad Extensions</dt><dd>2x 10-12, 2x Triple Drop Set</dd></dl> | 90m      |
+| Push B | Thursday  | <dl><dt>1) Standing Overhead Barbell Press</dt><dd>4x 10-12</dd><dt>2) Incline Dumbbell Press x Push up (Super Set)</dt><dd>3x 10-12</dd><dt>3) Overhead Tricep Extension</dt><dd>3x 10-12</dd><dt>4) Cable or Machine Fly</dt><dd>3x 10-12</dd><dt>5) Dips</dt><dd>3x AMRAP</dd></dl>                                             | 60m      |
+| Pull B | Friday    | <dl><dt>1) Lat Pulldown</dt><dd>2x Warm up, 3x 8-10 Drop set</dd><dt>2) Dumbbell Row</dt><dd>2x Warm up, 2x 6-8 Heavy, 1x 10-12 Moderate</dd><dt>3) Incline Seated Dumbbell Curls</dt><dd>4x 10-12</dd><dt>4) Pull Up</dt><dd>3x AMRAP</dd><dt>5) Reverse EZ Bar Curl</dt><dd>2x 8-10, 2x 40 seconds</dd></dl>                     | 75m      |
+| Core   | Saturday  | <dl><dt>1) Medicine Ball Twist</dt><dd>3x 20</dd><dt>2) Crunches w Twist</dt><dd>4x 20</dd><dt>3) Ab Roll-out x Hanging Knee Raises (Super Set)</dt><dd>3x 15</dd><dt>4) Good Morning</dt><dd>5x 15</dd><dt>5) Plank</dt><dd>1x Through the Fire and the Flames track</dd></dl>                                                    | 75m      |
+| REST   | Sunday    |  Yoga/Stretching                                                                                                                                                                                                                                                                                                                                  |   30m       |
+
+
 
 
