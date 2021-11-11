@@ -6,7 +6,46 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Nov 2021 20:17:04 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Nov 2021 15:47:09 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAP</title>
+      <link>/workxp/softdevinternships/sap/</link>
+      <pubDate>Sun, 07 Nov 2021 15:25:08 -0500</pubDate>
+      
+      <guid>/workxp/softdevinternships/sap/</guid>
+      <description>Intro In April of 2020 I accepted a summer internship with SAP. That summer I had a wonderful time working with a team of extremely talented developers. The experience helped me grow as a professional and taught me many valuable technical skills!
+The following summer I was given a return offer to intern with the same team at SAP again and I jumped at the opportunity. My second internship with SAP was just as rewarding and I was able to build off of the things I had learned the previous year.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;In April of 2020 I accepted a summer internship with SAP. That summer I had a wonderful time working with a team of extremely talented developers. The experience helped me grow as a professional and taught me many valuable technical skills!&lt;/p&gt;
+&lt;p&gt;The following summer I was given a return offer to intern with the same team at SAP again and I jumped at the opportunity. My second internship with SAP was just as rewarding and I was able to build off of the things I had learned the previous year.&lt;/p&gt;
+&lt;h2 id=&#34;meet-the-team&#34;&gt;Meet the Team&lt;/h2&gt;
+&lt;p&gt;I was part of the &amp;ldquo;K-Force&amp;rdquo; team working on SAP&amp;rsquo;s Learning Management Suite (LMS) as an intern. Below is a picture of all of us at a company lunch from June 2021!&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/workXp/sapTeam.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;(From left to right) Birla, Bhargavi, Krupali, Sarath, Shweta, Divya, Shiva, and Me&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;p&gt;Krupali is the team lead for K-Force and she is AWESOME! Not only is she a talented developer, she is also an excellent communicator and it was an absolute to work under her leadership.
+Sarath and Shiva were my mentors and I am extremely thankful for them. They are both kind and capable; they are also infinitely patient and were always willing to answer my questions when I inevitably got stuck.
+Birla is K-Force&amp;rsquo;s lead architect making him responsible for code reviews. He has an incredibly deep understanding of SAP&amp;rsquo;s enormous code base&amp;hellip; and a great sense of humor. All of K-Force&amp;rsquo;s pull requests had to go through him for review and he would check that the code changes followed the conventions and standards of SAP&amp;rsquo;s code base.&lt;/p&gt;
+&lt;p&gt;The team as a whole was extraordinary. Everyone was so friendly and talented; it was a pleasure to work with them. I am so thankful to all of K-Force for being so welcoming and helpful, I couldn&amp;rsquo;t have asked for a better team!&lt;/p&gt;
+&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;
+&lt;p&gt;I made improvements to SAP&amp;rsquo;s LMS that are now live on the most recent version of their software! But first, what is LMS? LMS is like a professional version of BlackBoard or Canvas; it is an all in one application for assigning, taking, and completing online learning courses such as certifications, on-boarding education, etc.&lt;/p&gt;
+&lt;p&gt;One of my features displayed specific information for a given class, such as &amp;ldquo;&lt;em&gt;How to Avoid Phishing Attacks&lt;/em&gt;&amp;rdquo;. The implementation required that I pass information pertaining to the class to a database and use it to query for the relevant table information to be displayed. The query results then needed to be converted into java objects before being passed back to the point of request to be displayed. This may seem like a relatively simple process &amp;ndash; use local variables to query a database and return the results, right?&lt;br&gt;
+Well you would be correct if the SAP code base wasn&amp;rsquo;t hundred of thousands of lines long. To access the database, I needed to pass the information through both the data and business layer of the application &amp;ndash; a process that involved a number of existing and new Java objects. Here is the API diagram I made for my requirement to give you an idea of complexity of the code base I had to navigate:&lt;/p&gt;
+
+  &lt;img src=&#34;/img/workXp/api.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;p&gt;The hardest part when implementing my features was simply understanding the existing code &amp;ndash; it was just so overwhelming at first! I spent hours and hours parsing and tracing the codebase until I had an inkling of the existing mechanisms. Once my research was complete, I would propose a solution to Krupali and Birla, and with their go-ahead I would start implementation! I repeated this process numerous times throughout my internships which has given me a lot of confidence in my ability to understand complex code bases.&lt;/p&gt;
+&lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;I learned so much from my time at SAP, but one of the most important lessons I took away from the experience was the importance of asking for help. When I first started I was terribly nervous to ask anyone for help understanding the code base because I didn&amp;rsquo;t want to look stupid. Looking back, that was a silly way to think and I wish it hadn&amp;rsquo;t slowed me down as much as it did.
+Thankfully, I had amazing mentors who quickly made it clear to me that it was OK to be confused and ask questions. The were extremely sympathetic to my struggle and were always happy to explain parts of the code that I couldn&amp;rsquo;t wrap my head around. This made me realize that being confused was just a part of the job which gave me a huge boost in confidence. I will no longer be worried about seeming foolish when asking questions &amp;ndash; sometimes, you just need some help!&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>casePlace</title>
       <link>/myportfolio/schoolwork/caseplace/</link>
@@ -259,6 +298,146 @@ Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profi
 
   &lt;img src=&#34;/img/passManager/encryptedProfiles.png&#34;  class=&#34;left&#34;  /&gt;
 &lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>solutionStreet</title>
+      <link>/workxp/softdevinternships/solutionstreet/</link>
+      <pubDate>Sun, 07 Nov 2021 15:47:09 -0500</pubDate>
+      
+      <guid>/workxp/softdevinternships/solutionstreet/</guid>
+      <description>Intro Following my Freshman year at Case Wester Reserve University, I was hired as an intern for a local software development company called Solution Street. At Solution Street I had the opportunity to work with a team entirely composed of interns (except for our team lead) on an entirely new project! This presented a unique learning opportunity and taught me so much more about software development beyond the technical details.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Following my Freshman year at Case Wester Reserve University, I was hired as an intern for a local software development company called Solution Street. At Solution Street I had the opportunity to work with a team entirely composed of interns (except for our team lead) on an entirely new project! This presented a unique learning opportunity and taught me so much more about software development beyond the technical details.&lt;/p&gt;
+&lt;p&gt;As a team, we were tasked with creating a new web-based application for a local catering company &amp;ndash; Smokin&#39; Willy&amp;rsquo;s BBQ! The owner of Smokin&#39; Willy&amp;rsquo;s was having trouble managing a increasing number of orders and came to Solution Street looking for a business solution. A deal was struck between the two and a team of 4 interns and 1 part-time employee got to work on an application in exchange for free catering at future company picnics!&lt;/p&gt;
+&lt;h2 id=&#34;meet-the-team&#34;&gt;Meet the Team&lt;/h2&gt;
+&lt;p&gt;I worked with 3 other interns at Solution Street named Greg, Mark, and Adam. We were led by a part time employee named Olga Lorenz &amp;ndash; she&amp;rsquo;s awesome. The 5 of us all reported to Arthur Frankel, a co-founder of Solution Street (and the guy in charge of hiring us).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Arthur&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Olga&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;
+  &lt;img src=&#34;/img/workXp/arthur.png&#34;  class=&#34;left&#34;  /&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;
+  &lt;img src=&#34;/img/workXp/olga.png&#34;  class=&#34;left&#34;  /&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Co-founder of Solution Street, and who hired me!&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;My team leader&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;my-contributions&#34;&gt;My Contributions&lt;/h2&gt;
+&lt;p&gt;As a team, we sat down with the owner of Smokin&#39; Willy&amp;rsquo;s (the William himself!) and worked with him to understand his business practices and what we could do to make running his business easier. Olga would lead these meetings, but all of us made suggestions and contributed to the discussion of what we could build for him.&lt;/p&gt;
+&lt;p&gt;Once we had an idea of how his business worked, we got to work on development. We followed an Agile development cycle which consisted of daily scrum meetings and weekly sprint meetings &amp;ndash; which William was present for. We used Unfuddle as our ticketing system, and under Olga&amp;rsquo;s guidance we began to build the web application using a Ruby on Rails back-end and an HTML/CSS front end. We often worked together on the same tickets since we were all seated next to each other in the office, and we made code peer reviews a normal practice.&lt;/p&gt;
+&lt;p&gt;As a developer I worked on a number of different parts of the web application, both front-end and back-end. One of the features I am most proud of is a calendar embedded in the home page of the website. This calendar was dynamic and would automatically be populated with orders as they came in through the website! When clicked on, events could be added to the calendar and existing events could be expanded or modified.&lt;/p&gt;
+&lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
+&lt;p&gt;Since Solution Street was my first serious software development position, I learned a ton about the development process and technology. It was my first exposure to an agile development cycle and a full stack framework such as Ruby on Rails. This helped me become a much more technically proficient candidate for future internship positions.&lt;/p&gt;
+&lt;p&gt;Beyond the technical side of software development, however, I also learned about the business side. Being able to sit down and talk face-to-face with a client was an extremely rewarding experience and it greatly expanded my understanding of how software development companies do business. Something that struck me was the importance of communication between the developers and the client, and how there can often be a bit of a &amp;ldquo;language barrier&amp;rdquo; between the two. For instance, William was an excellent chef but he didn&amp;rsquo;t know anything about software; it became our job as representatives of Solution Street to help him understand the potential of our application.&lt;/p&gt;
+&lt;p&gt;The way we did this was by first asking him to explain to us his normal business process for taking and filling orders. This gave us a general picture for what kind of application to make. Then, we asked that he identify the steps in his business process that took the most time and together we discussed how we could build off the current application to automate those time consuming steps. Sitting down and working with a client taught me so much about software development that I had never considered before and encouraged me to view the industry more from the view of the consumer than the producer.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>weightLifting</title>
+      <link>/myportfolio/hobbies/weightlifting/</link>
+      <pubDate>Thu, 04 Nov 2021 12:34:39 -0400</pubDate>
+      
+      <guid>/myportfolio/hobbies/weightlifting/</guid>
+      <description>Intro Physical fitness has always been extremely important to me. Without constant exercise, I start to go stir crazy and get super irritable. This was never a problem in high school when I was playing a variety of sports and had daily practices, but since graduating and moving on to college I needed to find a new outlet. Several of my close friends in high school took up weight lifting and they introduced me to it the Summer after my Freshman year &amp;ndash; I quickly took to it and dived in head first after two semesters of restlessness.</description>
+      <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Physical fitness has always been extremely important to me. Without constant exercise, I start to go stir crazy and get super irritable. This was never a problem in high school when I was playing  a variety of sports and had daily practices, but since graduating and moving on to college I needed to find a new outlet. Several of my close friends in high school took up weight lifting and they introduced me to it the Summer after my Freshman year &amp;ndash; I quickly took to it and dived in head first after two semesters of restlessness.&lt;/p&gt;
+&lt;p&gt;Lifting appeals to me greatly because it is very flexible. Depending on what else I have going on in my lift, I can make lifting as rigorous or relaxed as I like. It also has tons of variation to it so I&amp;rsquo;ll never get bored with it &amp;ndash; if I get tired to doing some exercises I&amp;rsquo;ll just write a new split and start working on other stuff!&lt;/p&gt;
+&lt;p&gt;The empirical nature of it also appeals to me &amp;ndash; it is extremely easy to measure and track progress which makes setting goals easy. I joke sometimes that lifting is like real life Runescape, but instead of getting experience for a profession you&amp;rsquo;re just getting a high max score for certain lifts.&lt;/p&gt;
+&lt;h2 id=&#34;diet&#34;&gt;Diet&lt;/h2&gt;
+&lt;p&gt;I have learned that diet is the number one most important thing when lifting &lt;em&gt;BY FAR&lt;/em&gt;. I would go so far as to say 80% diet : 20 % working out. This is because it doesn&amp;rsquo;t matter what you&amp;rsquo;re doing in the gym &amp;ndash; if you aren&amp;rsquo;t eating right, you won&amp;rsquo;t build muscle. Without fuel, your body simply can&amp;rsquo;t build muscle or replenish itself!&lt;/p&gt;
+&lt;p&gt;This was a tough lesson for me to learn since I have had a problem with under-eating since I was a kid. It wasn&amp;rsquo;t until I started forcing myself to eat more that I finally started to see rapid progress towards my goals in the gym. It took me a while to figure out how much my body needed, but I now know my body&amp;rsquo;s baseline is ~1670-1700 daily calories to maintain my current weight.&lt;/p&gt;
+&lt;p&gt;When attempting to gain muscle, you &lt;em&gt;MUST&lt;/em&gt; hit your body&amp;rsquo;s baseline calorie count each day. The fact of the matter is, its impossible to gain &lt;em&gt;ANYTHING &amp;ndash; fat or muscle&lt;/em&gt; unless you are eating a caloric surplus. Generally, it is recommended you try to eat a surplus of 500 calories on exercise days if you want to gain ~1 lb per week.&lt;/p&gt;
+&lt;h2 id=&#34;my-current-split&#34;&gt;My Current Split&lt;/h2&gt;
+&lt;p&gt;For the fall semester of 2021 I have had a lot of time to focus on lifting due to my academic load being relatively light. As a result, I have taken this opportunity to put on as much muscle as possible before I get busy again. This is because it is relatively easy to maintain muscle mass compared to building it (since building muscle requires much high regularity of eating and exercising).&lt;/p&gt;
+&lt;p&gt;This semester I have had the ambitious goal of exercising 6 days a week, and eating 2200+ calories each day. This dietary part has been by far the more difficult of the two since I have such a bad habit of under eating. However, I have been able to put together weekly meals that help me reach my caloric goal. I have also set numeric goals for my sets in the gym:&lt;/p&gt;
+&lt;p&gt;Comfortable 5x5 Weight:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bench Press: 185&lt;/li&gt;
+&lt;li&gt;Squat: 225&lt;/li&gt;
+&lt;li&gt;Dead Lift: 225&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;split&#34;&gt;Split&lt;/h3&gt;
+&lt;p&gt;Goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strengthen chest and increase bench press weight.
+&lt;ul&gt;
+&lt;li&gt;5x5 @ 185, 3x2 @ 225&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Build up core strength&lt;/li&gt;
+&lt;li&gt;Maintain barbell squat and practice technique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;6 Day Split: Push -&amp;gt; Pull -&amp;gt; Legs -&amp;gt; Push -&amp;gt; Pull -&amp;gt; Core&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Day&lt;/th&gt;
+&lt;th&gt;Week Day&lt;/th&gt;
+&lt;th&gt;Schedule&lt;/th&gt;
+&lt;th&gt;Duration&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Push A&lt;/td&gt;
+&lt;td&gt;Monday&lt;/td&gt;
+&lt;td&gt;&lt;div&gt;&lt;dl&gt;&lt;dt&gt;1) Barbell Bench Press&lt;/dt&gt;&lt;dd&gt;1x Warmup, 2x 5-8 Heavy, 3x 10-12 Moderate&lt;/dd&gt;&lt;dt&gt;2) Chest Fly x Tricep Extension (Super Set)&lt;/dt&gt;&lt;dd&gt;3x 10-12, 4x 7-10&lt;/dd&gt;&lt;dt&gt;3) Lateral Dumbbell Raise&lt;/dt&gt;&lt;dd&gt;4x 10-12&lt;/dd&gt;&lt;dt&gt;4) Shrugs&lt;/dt&gt;&lt;dd&gt;4x 10-12&lt;/dd&gt;&lt;dt&gt;5) Dips&lt;/dt&gt;&lt;dd&gt;3x AMRAP&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;75m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pull A&lt;/td&gt;
+&lt;td&gt;Tuesday&lt;/td&gt;
+&lt;td&gt;&lt;dl&gt;&lt;dt&gt;1) Pull up&lt;/dt&gt;&lt;dd&gt;3x Warm up&lt;/dd&gt;&lt;dt&gt;2) Hammer Curl&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;3) Reverse Grip Rows&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;4) Cable Curls&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;5) Cable Rows&lt;/dt&gt;&lt;dd&gt;2x 20 Drop Set&lt;/dd&gt;&lt;dt&gt;6) Dumbbell Curls&lt;/dt&gt;&lt;dd&gt;1x Triple Drop Set&lt;/dd&gt;&lt;/dl&gt;&lt;/td&gt;
+&lt;td&gt;60m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Legs&lt;/td&gt;
+&lt;td&gt;Wednesday&lt;/td&gt;
+&lt;td&gt;&lt;dl&gt;&lt;dt&gt;1) Box Jumps&lt;/dt&gt;&lt;dd&gt;3x Warm up&lt;/dd&gt;&lt;dt&gt;2) Barbell Back Squat&lt;/dt&gt;&lt;dd&gt;2x Warm up, 4x 8-12 Heavy, 1x AMRAP Moderate&lt;/dd&gt;&lt;dt&gt;3) Barbell Standing Calf Raise&lt;/dt&gt;&lt;dd&gt;4x 10-12 (then paritals until failure)&lt;/dd&gt;&lt;dt&gt;4) Hip Thrusts&lt;/dt&gt;&lt;dd&gt;4x 10-12&lt;/dd&gt;&lt;dt&gt;5) Quad Extensions&lt;/dt&gt;&lt;dd&gt;2x 10-12, 2x Triple Drop Set&lt;/dd&gt;&lt;/dl&gt;&lt;/td&gt;
+&lt;td&gt;90m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Push B&lt;/td&gt;
+&lt;td&gt;Thursday&lt;/td&gt;
+&lt;td&gt;&lt;dl&gt;&lt;dt&gt;1) Standing Overhead Barbell Press&lt;/dt&gt;&lt;dd&gt;4x 10-12&lt;/dd&gt;&lt;dt&gt;2) Incline Dumbbell Press x Push up (Super Set)&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;3) Overhead Tricep Extension&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;4) Cable or Machine Fly&lt;/dt&gt;&lt;dd&gt;3x 10-12&lt;/dd&gt;&lt;dt&gt;5) Dips&lt;/dt&gt;&lt;dd&gt;3x AMRAP&lt;/dd&gt;&lt;/dl&gt;&lt;/td&gt;
+&lt;td&gt;60m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pull B&lt;/td&gt;
+&lt;td&gt;Friday&lt;/td&gt;
+&lt;td&gt;&lt;dl&gt;&lt;dt&gt;1) Lat Pulldown&lt;/dt&gt;&lt;dd&gt;2x Warm up, 3x 8-10 Drop set&lt;/dd&gt;&lt;dt&gt;2) Dumbbell Row&lt;/dt&gt;&lt;dd&gt;2x Warm up, 2x 6-8 Heavy, 1x 10-12 Moderate&lt;/dd&gt;&lt;dt&gt;3) Incline Seated Dumbbell Curls&lt;/dt&gt;&lt;dd&gt;4x 10-12&lt;/dd&gt;&lt;dt&gt;4) Pull Up&lt;/dt&gt;&lt;dd&gt;3x AMRAP&lt;/dd&gt;&lt;dt&gt;5) Reverse EZ Bar Curl&lt;/dt&gt;&lt;dd&gt;2x 8-10, 2x 40 seconds&lt;/dd&gt;&lt;/dl&gt;&lt;/td&gt;
+&lt;td&gt;75m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Core&lt;/td&gt;
+&lt;td&gt;Saturday&lt;/td&gt;
+&lt;td&gt;&lt;dl&gt;&lt;dt&gt;1) Medicine Ball Twist&lt;/dt&gt;&lt;dd&gt;3x 20&lt;/dd&gt;&lt;dt&gt;2) Crunches w Twist&lt;/dt&gt;&lt;dd&gt;4x 20&lt;/dd&gt;&lt;dt&gt;3) Ab Roll-out x Hanging Knee Raises (Super Set)&lt;/dt&gt;&lt;dd&gt;3x 15&lt;/dd&gt;&lt;dt&gt;4) Good Morning&lt;/dt&gt;&lt;dd&gt;5x 15&lt;/dd&gt;&lt;dt&gt;5) Plank&lt;/dt&gt;&lt;dd&gt;1x Through the Fire and the Flames track&lt;/dd&gt;&lt;/dl&gt;&lt;/td&gt;
+&lt;td&gt;75m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REST&lt;/td&gt;
+&lt;td&gt;Sunday&lt;/td&gt;
+&lt;td&gt;Yoga/Stretching&lt;/td&gt;
+&lt;td&gt;30m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;/blockquote&gt;
 </content>
     </item>
@@ -634,6 +813,278 @@ AND 		E.ct = (SELECT MAX	(E2.ct)
 &lt;h2 id=&#34;lessons-learned&#34;&gt;Lessons Learned&lt;/h2&gt;
 &lt;p&gt;I am extremely appreciative of this class due to the value of learning how to write queries in SQL. I think our professor did an excellent job in training us to use all of SQL&amp;rsquo;s weird little features, and demanded that we compose complex queries for homework and tests very often. This made me very comfortable using SQL and MySQLWorkbench and has left me very confident in my ability to query a database.&lt;/p&gt;
 &lt;p&gt;Furthermore, I also learned how to do a form of set mathematics that apply to databases in order to compose queries that are mathematically provably complete! I thought this was really cool since it was a direct connection between math and computer science I had never considered.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>italy2021 (WIP)</title>
+      <link>/myportfolio/hobbies/traveling/italy2021/</link>
+      <pubDate>Mon, 18 Oct 2021 17:37:56 -0400</pubDate>
+      
+      <guid>/myportfolio/hobbies/traveling/italy2021/</guid>
+      <description>Week 1 Jake and I touched down at the Venice Marco Polo Airport on August 15th after traveling for 18 hours from Washington D.C.&amp;rsquo;s Dulles Airport. Soon after landing, our friend Alessandro from Padova (a small city outside of Venice) picked us up in his tiny car. A 20 minute car ride later, we arrived at the Padova train station and picked up Rachel. The gang was finally all together!</description>
+      <content>&lt;h2 id=&#34;week-1&#34;&gt;Week 1&lt;/h2&gt;
+&lt;p&gt;Jake and I touched down at the Venice Marco Polo Airport on August 15th after traveling for 18 hours from Washington D.C.&amp;rsquo;s Dulles Airport. Soon after landing, our friend Alessandro from Padova (a small city outside of Venice) picked us up in his tiny car. A 20 minute car ride later, we arrived at the Padova train station and picked up Rachel. The gang was finally all together!&lt;/p&gt;
+
+  &lt;figure class=&#34;left&#34; &gt;
+    &lt;img src=&#34;/img/italy2021/week1/theGang.png&#34;   /&gt;
+    
+      &lt;figcaption class=&#34;center&#34; &gt;(From left to right) Jake, Ale, Me and Rachel&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+&lt;p&gt;Needless to say, Jake and I were exhausted and SUPER jet lagged&amp;hellip; so that first day was a little rough and we ended up falling asleep while exploring Padova.&lt;/p&gt;
+
+  &lt;img src=&#34;/img/italy2021/week1/jakeAsleep.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;p&gt;So, day one was a bit of a wash. Oh well! But, we did get to sit down and have a lovely dinner (after a nap of course) with Ale&amp;rsquo;s Mom Sabrina!&lt;/p&gt;
+
+  &lt;img src=&#34;/img/italy2021/week1/sabrina.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;h3 id=&#34;verona&#34;&gt;Verona&lt;/h3&gt;
+&lt;p&gt;Our first day trip was to the city of Verona, the home of Romeo and Juliet!&lt;/p&gt;
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/verona//ale.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/verona//ale-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/verona//alejakerachel.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/verona//alejakerachel-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/verona//fermi.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/verona//fermi-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;h3 id=&#34;52-galleries&#34;&gt;52 Galleries&lt;/h3&gt;
+&lt;p&gt;Next on our list was a road trip to &lt;a href=&#34;https://en.wikipedia.org/wiki/Strada_delle_52_Gallerie&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;52 galleries&lt;/a&gt;
+ which is a series of 52 tunnels through the alps in Northern Italy. It is a historical site from WWI when it was used as a trail for munitions, but it also happens to be a beautiful hike! Joining us are Ale&amp;rsquo;s two high school friends Martina and Helena.&lt;/p&gt;
+
+  &lt;img src=&#34;/img/italy2021/week1/theSquad.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/52galleries//donut.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/52galleries//donut-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/52galleries//jake.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/52galleries//jake-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/52galleries//start.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/52galleries//start-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/52galleries//trail.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/52galleries//trail-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/52galleries//trail2.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/52galleries//trail2-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;h3 id=&#34;venice&#34;&gt;Venice&lt;/h3&gt;
+&lt;p&gt;Being so close, we of course spent multiple days in Venice. Our first day we made no plans, and simply wandered around and explored the winding, narrow footpaths between buildings hundreds of years old. While in Venice we had tons of fun seeing historical landmarks, eating amazing food, and  drinking delicious (and cheap!) wine.&lt;/p&gt;
+
+  &lt;img src=&#34;/img/italy2021/week1/grand.png&#34;  class=&#34;left&#34;  /&gt;
+
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice//ale.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice//ale-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice//grandNight.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice//grandNight-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice//mask.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice//mask-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice//us3.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice//us3-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;h4 id=&#34;murano-and-burano&#34;&gt;Murano and Burano&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Murano and Burano are two of the most famous Venetian islands which are known for their beautiful glasswork and colorful home fronts respectively.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;style&gt;
+  div.gallery {
+     display: flex;
+     flex-wrap: wrap;
+  }
+        div.gallery a {
+            flex-grow: 1;
+            object-fit: cover;
+            margin: 2px;
+            display: flex;
+        }
+
+        div.gallery a img {            
+            height: 200px;
+            object-fit: cover;
+            flex-grow: 1;
+        }
+
+    &lt;/style&gt;
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css&#34; /&gt;
+
+    &lt;div class=&#34;gallery&#34;&gt;
+        
+	
+
+	
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/ale.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/ale-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/boat.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/boat-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/burano.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/burano-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/eggs.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/eggs-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/fetus.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/fetus-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/jakenme.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/jakenme-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/lens.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/lens-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/rachel.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/rachel-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+	
+            &lt;a data-fancybox=&#34;gallery&#34; href=&#34;/img/italy2021/week1/venice/murano_burano/sculpture.png&#34;&gt;
+                &lt;img src=&#34;/img/italy2021/week1/venice/murano_burano/sculpture-thumb.png&#34;&gt;  &lt;br/&gt;            
+            &lt;/a&gt;
+	
+    &lt;/div&gt;
+&lt;h3 id=&#34;trip-to-the-beach&#34;&gt;Trip to the &amp;ldquo;Beach&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;I think there may have been something lost in translation with this one&amp;hellip; Ale told Jake and me that he was taking us to &amp;ldquo;the beach&amp;rdquo;, but what we infect went to was an &lt;em&gt;ice-cold mountain stream&lt;/em&gt; where people gather to go cliff jumping. But, regardless of the fact that I brought my volleyball, we still had an amazing time. Jake and I quickly worked our way up to the highest jump off points and started practicing our swan dives. Joining the three of us were Ale&amp;rsquo;s three friends Alcia, Helena, and Martina.&lt;/p&gt;
+
+  &lt;img src=&#34;/img/italy2021/week1/beach.png&#34;  class=&#34;left&#34;  /&gt;
+
 </content>
     </item>
     
