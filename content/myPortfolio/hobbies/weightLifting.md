@@ -4,7 +4,7 @@ author = "Cameron Farmer"
 date = "2021-11-04T12:34:39-04:00"
 workingDirectory = "~/root/myPortfolio/hobbies/weightLifting.md"
 weight = 0 
-draft = true
+draft = false
 toc = true
 description = "I started weight lifting four years ago and it has since become an essential part of my weekly routine. My time in the gym has become something like meditation and it has evolved into a hobby rather than just an avenue for physical exertion. Checkout my current split!"
 +++

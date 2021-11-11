@@ -4,7 +4,7 @@ author = "Cameron Farmer"
 date = "2021-11-07T15:25:08-05:00"
 workingDirectory = "~/root/workXp/SAP.md"
 weight = 1 
-draft = true
+draft = false
 toc = true
 description = "Over the Summers of 2020 and 2021 I had the opportunity to intern at SAP. I worked alongside a team of professional developers and made improvements to SAP's Learning Management Suite. Check out some of the stuff I learned!"
 +++
