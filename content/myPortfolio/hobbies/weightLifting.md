@@ -6,28 +6,28 @@ workingDirectory = "~/root/myPortfolio/hobbies/weightLifting.md"
 weight = 0 
 draft = false
 toc = true
-description = "I started weight lifting four years ago and it has since become an essential part of my weekly routine. My time in the gym has become something like meditation and it has evolved into a hobby rather than just an avenue for physical exertion. Checkout my current split!"
+description = "I started weightlifting four years ago and it has since become an essential part of my weekly routine. My time in the gym has become something like meditation and it has evolved into a hobby rather than just an avenue for physical exertion. Checkout my current split!"
 +++
 
 ## Intro
 
-Physical fitness has always been extremely important to me. Without constant exercise, I start to go stir crazy and get super irritable. This was never a problem in high school when I was playing  a variety of sports and had daily practices, but since graduating and moving on to college I needed to find a new outlet. Several of my close friends in high school took up weight lifting and they introduced me to it the Summer after my Freshman year -- I quickly took to it and dived in head first after two semesters of restlessness. 
+Physical fitness is **extremely** important to me. Without constant exercise, I start to go stir crazy and get super irritable. This was never a problem in high school when I was playing  a variety of sports and had daily practices, but since starting college I needed to find a new outlet. Several of my close friends in high school took up weightlifting and they introduced me to it the summer after my Freshman year -- I quickly took to it and dived in head first after two semesters of restlessness. 
 
-Lifting appeals to me greatly because it is very flexible. Depending on what else I have going on in my lift, I can make lifting as rigorous or relaxed as I like. It also has tons of variation to it so I'll never get bored with it -- if I get tired to doing some exercises I'll just write a new split and start working on other stuff! 
+Lifting appeals to me greatly because it is very **flexible**. Depending on what else I have going on in my life, I can make lifting as **rigorous or relaxed** as I like. It also has tons of variation, so I'll never get bored with it. If I get tired of certain exercises I'll just write a new split and start working on other stuff! 
 
-The empirical nature of it also appeals to me -- it is extremely easy to measure and track progress which makes setting goals easy. I joke sometimes that lifting is like real life Runescape, but instead of getting experience for a profession you're just getting a high max score for certain lifts. 
+The **empirical nature** of it also appeals to me -- it is extremely easy to measure and track progress which makes setting goals easy. I joke sometimes that **lifting is like real life Runescape**, but instead of getting experience for a profession you're just getting a higher max score for certain lifts. 
 
 ## Diet
 
-I have learned that diet is the number one most important thing when lifting *BY FAR*. I would go so far as to say 80% diet : 20 % working out. This is because it doesn't matter what you're doing in the gym -- if you aren't eating right, you won't build muscle. Without fuel, your body simply can't build muscle or replenish itself! 
+I have learned that diet is the most important thing when lifting *BY FAR*. I would go so far as to say 80% diet : 20 % working out. This is because it doesn't matter what you're doing in the gym -- if you aren't eating right, you won't build muscle. Without fuel, your body simply can't build muscle or replenish itself! 
 
 This was a tough lesson for me to learn since I have had a problem with under-eating since I was a kid. It wasn't until I started forcing myself to eat more that I finally started to see rapid progress towards my goals in the gym. It took me a while to figure out how much my body needed, but I now know my body's baseline is ~1670-1700 daily calories to maintain my current weight. 
 
-When attempting to gain muscle, you *MUST* hit your body's baseline calorie count each day. The fact of the matter is, its impossible to gain *ANYTHING -- fat or muscle* unless you are eating a caloric surplus. Generally, it is recommended you try to eat a surplus of 500 calories on exercise days if you want to gain ~1 lb per week. 
+When attempting to gain muscle, you *MUST* hit your body's baseline calorie count each day. The fact of the matter is, it's impossible to gain *ANYTHING -- fat or muscle* unless you are eating a caloric surplus. Generally, it is recommended you try to eat a surplus of 500 calories on exercise days if you want to gain ~1 lb per week. 
 
 ## My Current Split
 
-For the fall semester of 2021 I have had a lot of time to focus on lifting due to my academic load being relatively light. As a result, I have taken this opportunity to put on as much muscle as possible before I get busy again. This is because it is relatively easy to maintain muscle mass compared to building it (since building muscle requires much high regularity of eating and exercising). 
+For the 2021 fall semester I have had a lot of time to focus on lifting due to my academic load being relatively light. As a result, I have taken this opportunity to put on as much muscle as possible before I get busy again. This is because it is relatively easy to maintain muscle mass compared to building it (since building muscle requires higher regularity of eating and exercising). 
 
 This semester I have had the ambitious goal of exercising 6 days a week, and eating 2200+ calories each day. This dietary part has been by far the more difficult of the two since I have such a bad habit of under eating. However, I have been able to put together weekly meals that help me reach my caloric goal. I have also set numeric goals for my sets in the gym:
 
