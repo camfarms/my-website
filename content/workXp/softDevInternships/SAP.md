@@ -2,7 +2,7 @@
 title = "SAP"
 author = "Cameron Farmer"
 date = "2021-11-07T15:25:08-05:00"
-workingDirectory = "~/root/workXp/SAP.md"
+workingDirectory = "~/root/workXp/softDevInternships/SAP.md"
 weight = 1 
 draft = false
 toc = true

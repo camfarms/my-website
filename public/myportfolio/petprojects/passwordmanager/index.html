@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="I am ashamed to admit that I used to be a password reuser (*gasp!*) -- if a hacker ever got ahold of one of my few passwords, my online security could have been completely compromised! Well, a few months ago I decided to rectify this by writing my own password manager. Check it out!" />
+<meta name="description" content="I am ashamed to admit that I used to re-use passwords (*gasp!*) -- if a hacker ever got ahold of one of my few passwords, my online security could have been completely compromised. A few months ago I decided to rectify this by writing my own password manager. Check it out!" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/myportfolio/petprojects/passwordmanager/" />
@@ -41,7 +41,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="passwordManager">
-<meta property="og:description" content="I am ashamed to admit that I used to be a password reuser (*gasp!*) -- if a hacker ever got ahold of one of my few passwords, my online security could have been completely compromised! Well, a few months ago I decided to rectify this by writing my own password manager. Check it out!" />
+<meta property="og:description" content="I am ashamed to admit that I used to re-use passwords (*gasp!*) -- if a hacker ever got ahold of one of my few passwords, my online security could have been completely compromised. A few months ago I decided to rectify this by writing my own password manager. Check it out!" />
 <meta property="og:url" content="/myportfolio/petprojects/passwordmanager/" />
 <meta property="og:site_name" content="Terminal" />
 
@@ -187,9 +187,9 @@
   <div class="post-content"><div>
         <h2 id="intro">Intro<a href="#intro" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>After learning about the <a href="https://privacysavvy.com/password/guides/reusing-passwords/" target="_blank" rel="noopener">risks of reusing passwords</a>
- I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all of my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the <a href="https://www.forbes.com/sites/leemathews/2021/06/29/details-on-700-million-linkedin-users-for-sale-on-notorious-hacking-forum/?sh=6c337b3234a4" target="_blank" rel="noopener">LinkedIn hack</a>
- in which thousands of users had their username and passwords stolen. I had no way of knowing whether my information had been compromised or not, but if it had someone could see my LinkedIn password and use that to access another dozen of my accounts!</p>
-<p>This freaked me out and spurred me to take action. I decided that it was time I come up with a way of safely storing my login information, and I started work on my own password manager.</p>
+ I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the <a href="https://www.forbes.com/sites/leemathews/2021/06/29/details-on-700-million-linkedin-users-for-sale-on-notorious-hacking-forum/?sh=6c337b3234a4" target="_blank" rel="noopener">LinkedIn hack</a>
+ in which thousands of users had their username and passwords stolen. I had no way of knowing whether my information had been compromised or not, but if it was, someone could see my LinkedIn password and use that to access another dozen of my accounts.</p>
+<p>This freaked me out and spurred me to take action. I decided that it was time I come up with a way to safely store my login information, and I started work on my own password manager.</p>
 <h2 id="links">Links<a href="#links" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Check out the source code on my <a href="https://github.com/camfarms/SecureLoginPHP" target="_blank" rel="noopener">github</a>
 !</p>
@@ -204,7 +204,7 @@
 </blockquote>
 <h2 id="the-method">The Method<a href="#the-method" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>When starting this project my two main considerations were <strong>convenience and security</strong>. How could I protect my login profiles from prying eyes, while still making it easily accessible? After some brainstorming, I decided that I wanted to keep all of my passwords locally on my machine for ease-of-access, but didn&rsquo;t want them stored in plain text in case anyone got into my computer and could read my files.</p>
-<p>In order to make this possible, I needed some way to <strong>encrypt</strong> my login information before saving it locally.</p>
+<p>To make this possible, I needed some way to <strong>encrypt</strong> my login information before saving it locally.</p>
 <h3 id="encryption">Encryption<a href="#encryption" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <blockquote>
 <p>I didn&rsquo;t know much about encryption, so I started doing some research and found a method that would serve my purposes. I won&rsquo;t go too deeply into detail on the encryption, but here&rsquo;s the gist:</p>
@@ -214,8 +214,8 @@
 </ul>
 </blockquote>
 <h2 id="the-interface">The Interface<a href="#the-interface" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>Once I had determined my method of security I got to work on making a convenient implementation. For the sake of simplicity, I decided to make my password manager a script that I could run from terminal. At the time, I had been using PHP for one of my classes and decided it was the language for the job.</p>
-<p>To use my terminal based password manager, you must first enter a <strong>cryptographic key</strong>. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You are able to navigate through the different menus of the script by entering commands into the command line. Here&rsquo;s what it looks like when you first start it up:
+<p>Once I had determined my method of security, I got to work on making a convenient implementation. For the sake of simplicity, I decided to make my password manager a script that I could run from terminal. At the time, I had been using PHP for one of my classes and decided it was the language for the job.</p>
+<p>To use my terminal based password manager, you must first enter a <strong>cryptographic key</strong>. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You can navigate through the different menus of the script by entering commands into the command line. Here&rsquo;s what it looks like when you first start it up:
 
   <img src="/img/passManager/passManagerUsage.png"  class="left"  />
 </p>
@@ -342,7 +342,7 @@ while(true){
 
   <img src="/img/passManager/passManagerList.png"  class="left"  />
 
-In order to view the login profile&rsquo;s plaintext username and password, you use the <strong>look</strong> command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since <strong>I did not use the same crpytographic key</strong> when starting this session, the login progile will not be decoded for me to view:
+To view the login profile&rsquo;s plaintext username and password, you use the <strong>look</strong> command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since <strong>I did not use the same crpytographic key</strong> when starting this session, the login profile will not be decoded for me to view:
 
   <img src="/img/passManager/passManagerLook.png"  class="left"  />
 

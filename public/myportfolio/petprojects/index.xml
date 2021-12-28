@@ -13,12 +13,12 @@
       <pubDate>Wed, 13 Oct 2021 14:14:04 -0400</pubDate>
       
       <guid>/myportfolio/petprojects/passwordmanager/</guid>
-      <description>Intro After learning about the risks of reusing passwords I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all of my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the LinkedIn hack in which thousands of users had their username and passwords stolen.</description>
+      <description>Intro After learning about the risks of reusing passwords I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the LinkedIn hack in which thousands of users had their username and passwords stolen.</description>
       <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;After learning about the &lt;a href=&#34;https://privacysavvy.com/password/guides/reusing-passwords/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risks of reusing passwords&lt;/a&gt;
- I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all of my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the &lt;a href=&#34;https://www.forbes.com/sites/leemathews/2021/06/29/details-on-700-million-linkedin-users-for-sale-on-notorious-hacking-forum/?sh=6c337b3234a4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn hack&lt;/a&gt;
- in which thousands of users had their username and passwords stolen. I had no way of knowing whether my information had been compromised or not, but if it had someone could see my LinkedIn password and use that to access another dozen of my accounts!&lt;/p&gt;
-&lt;p&gt;This freaked me out and spurred me to take action. I decided that it was time I come up with a way of safely storing my login information, and I started work on my own password manager.&lt;/p&gt;
+ I realized that I was in trouble. For the sake of convenience, I used to use one of a handful of passwords for all my account logins (who the heck can remember a unique password for every single login!?) which makes me particularly susceptible to hacks. A big wakeup call for me was the &lt;a href=&#34;https://www.forbes.com/sites/leemathews/2021/06/29/details-on-700-million-linkedin-users-for-sale-on-notorious-hacking-forum/?sh=6c337b3234a4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn hack&lt;/a&gt;
+ in which thousands of users had their username and passwords stolen. I had no way of knowing whether my information had been compromised or not, but if it was, someone could see my LinkedIn password and use that to access another dozen of my accounts.&lt;/p&gt;
+&lt;p&gt;This freaked me out and spurred me to take action. I decided that it was time I come up with a way to safely store my login information, and I started work on my own password manager.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;p&gt;Check out the source code on my &lt;a href=&#34;https://github.com/camfarms/SecureLoginPHP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;
 !&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;the-method&#34;&gt;The Method&lt;/h2&gt;
 &lt;p&gt;When starting this project my two main considerations were &lt;strong&gt;convenience and security&lt;/strong&gt;. How could I protect my login profiles from prying eyes, while still making it easily accessible? After some brainstorming, I decided that I wanted to keep all of my passwords locally on my machine for ease-of-access, but didn&amp;rsquo;t want them stored in plain text in case anyone got into my computer and could read my files.&lt;/p&gt;
-&lt;p&gt;In order to make this possible, I needed some way to &lt;strong&gt;encrypt&lt;/strong&gt; my login information before saving it locally.&lt;/p&gt;
+&lt;p&gt;To make this possible, I needed some way to &lt;strong&gt;encrypt&lt;/strong&gt; my login information before saving it locally.&lt;/p&gt;
 &lt;h3 id=&#34;encryption&#34;&gt;Encryption&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I didn&amp;rsquo;t know much about encryption, so I started doing some research and found a method that would serve my purposes. I won&amp;rsquo;t go too deeply into detail on the encryption, but here&amp;rsquo;s the gist:&lt;/p&gt;
@@ -43,8 +43,8 @@
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;the-interface&#34;&gt;The Interface&lt;/h2&gt;
-&lt;p&gt;Once I had determined my method of security I got to work on making a convenient implementation. For the sake of simplicity, I decided to make my password manager a script that I could run from terminal. At the time, I had been using PHP for one of my classes and decided it was the language for the job.&lt;/p&gt;
-&lt;p&gt;To use my terminal based password manager, you must first enter a &lt;strong&gt;cryptographic key&lt;/strong&gt;. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You are able to navigate through the different menus of the script by entering commands into the command line. Here&amp;rsquo;s what it looks like when you first start it up:
+&lt;p&gt;Once I had determined my method of security, I got to work on making a convenient implementation. For the sake of simplicity, I decided to make my password manager a script that I could run from terminal. At the time, I had been using PHP for one of my classes and decided it was the language for the job.&lt;/p&gt;
+&lt;p&gt;To use my terminal based password manager, you must first enter a &lt;strong&gt;cryptographic key&lt;/strong&gt;. From then on, that cryptographic key is used for all encoding/decoding for the rest of the session. You can navigate through the different menus of the script by entering commands into the command line. Here&amp;rsquo;s what it looks like when you first start it up:
 
   &lt;img src=&#34;/img/passManager/passManagerUsage.png&#34;  class=&#34;left&#34;  /&gt;
 &lt;/p&gt;
@@ -171,7 +171,7 @@ while(true){
 
   &lt;img src=&#34;/img/passManager/passManagerList.png&#34;  class=&#34;left&#34;  /&gt;
 
-In order to view the login profile&amp;rsquo;s plaintext username and password, you use the &lt;strong&gt;look&lt;/strong&gt; command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since &lt;strong&gt;I did not use the same crpytographic key&lt;/strong&gt; when starting this session, the login progile will not be decoded for me to view:
+To view the login profile&amp;rsquo;s plaintext username and password, you use the &lt;strong&gt;look&lt;/strong&gt; command. If you entered the cryptographic key used to encode the profile when entering the session, the profile will be decoded and printed out for you to view. Since &lt;strong&gt;I did not use the same crpytographic key&lt;/strong&gt; when starting this session, the login profile will not be decoded for me to view:
 
   &lt;img src=&#34;/img/passManager/passManagerLook.png&#34;  class=&#34;left&#34;  /&gt;
 
@@ -196,17 +196,17 @@ Now, when the &lt;strong&gt;look&lt;/strong&gt; command is used on the new profi
       <pubDate>Sun, 31 Oct 2021 14:42:06 -0400</pubDate>
       
       <guid>/myportfolio/petprojects/rasppimediahub/</guid>
-      <description>Intro I am a huge movie and TV show buff which means I spend a lot of time with my laptop hooked up to my TV via and HDMI cord. However, constantly having to plug and unplug my sole laptop into the TV has gotten annoying&amp;hellip; so I present to you the Raspberry Pi Media Center!
+      <description>Intro I am a huge movie and TV show buff, which means I spend a lot of time with my laptop hooked up to my TV via an HDMI cord. However, constantly having to plug and unplug my laptop into the TV has gotten annoying&amp;hellip; so I created the Raspberry Pi Media Center!
 It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access.</description>
       <content>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;I am a huge movie and TV show buff which means I spend a lot of time with my laptop hooked up to my TV via and HDMI cord. However, constantly having to plug and unplug my sole laptop into the TV has gotten annoying&amp;hellip; so I present to you the Raspberry Pi Media Center!&lt;/p&gt;
-&lt;p&gt;It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access. Fortunately, I have most streaming platforms and can easily rent movies through Amazon. Assuming I can get the Pi up and running, I will soon never have to worry about forgetting my laptop and home again.&lt;/p&gt;
+&lt;p&gt;I am a &lt;strong&gt;huge&lt;/strong&gt; movie and TV show buff, which means I spend a lot of time with my laptop hooked up to my TV via an HDMI cord. However, constantly having to plug and unplug my laptop into the TV has gotten annoying&amp;hellip; so I created the &lt;strong&gt;Raspberry Pi Media Center&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;It is my hope that this will be able to replace my laptop as a designated streaming box for any and all media I want to access. Fortunately, I have most streaming platforms and can easily rent movies through Amazon. Assuming I can get the Pi up and running, I will never have to worry about forgetting my laptop at home again.&lt;/p&gt;
 &lt;h2 id=&#34;the-parts&#34;&gt;The Parts&lt;/h2&gt;
-&lt;p&gt;From my research for this project I decided that I would use &lt;a href=&#34;https://osmc.tv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSMC&lt;/a&gt;
- and a Raspberry Pi 4.&lt;/p&gt;
-&lt;p&gt;The choice to use OSMC was a relatively simple one. The first benefit of using OSMC is its extremely easy installation, and the second is its vibrant and active community supporting it. It is an extremely popular Pi OS, and has established itself in the community of fellow Pi heads. It also does exactly what I want it to do &amp;ndash; it mimics a media center with its own app installer and tile interface! One drawback however, is its a rather robust Pi OS (which maybe isn&amp;rsquo;t even a bad thing?) which makes it pretty cumbersome and difficult to configure or personalize. But, for my first foray into the realm of the Raspberry Pi I&amp;rsquo;m content to keep my training wheels on &amp;ndash; even if it isn&amp;rsquo;t a super lightweight.&lt;/p&gt;
-&lt;p&gt;I quickly determined that a B or B+ model board would be best for me due to its ethernet port (a &lt;strong&gt;MUST&lt;/strong&gt; in my opinion), HDMI/Micro-HDMI ports, and widespread use amongst people making media hubs. After learning more about the available hardware I was deciding between the Pi 3 and Pi 4 boards. The Pi 4, while being more expensive, outpaces the Pi 3 in almost every benchmark &lt;em&gt;BUT&lt;/em&gt; is extremely hard to find in its B+ configuration due to its recent release. But, since I haven&amp;rsquo;t used a Pi before and don&amp;rsquo;t know what exactly the demand would be on the hardware, I decided to opt for the safer option and splurged on the Pi 4 B model.&lt;/p&gt;
-&lt;p&gt;To complement my purchase I also bought an SD card for installing the OS, a micro-HDMI to HDMI adapter, and a cute little plastic case to keep it all safe.&lt;/p&gt;
+&lt;p&gt;Through my research for this project I decided that I would use &lt;a href=&#34;https://osmc.tv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OSMC&lt;/a&gt;
+ and a &lt;strong&gt;Raspberry Pi 4&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The choice to use OSMC was a relatively simple one. The first benefit of using OSMC is its extremely &lt;strong&gt;easy&lt;/strong&gt; installation, and the second is its vibrant and active community supporting it. It is an extremely popular Pi OS, and has established itself in the community of fellow Pi heads. It also does exactly what I want it to do &amp;ndash; it mimics a media center &lt;strong&gt;with its own app installer&lt;/strong&gt; and tile interface! However, one drawback, is it&amp;rsquo;s a rather robust Pi OS (which maybe isn&amp;rsquo;t even a bad thing?) which makes it pretty cumbersome and difficult to configure or personalize. But, for my first foray into the realm of the Raspberry Pi I&amp;rsquo;m content to keep my training wheels on &amp;ndash; even if it isn&amp;rsquo;t a super lightweight.&lt;/p&gt;
+&lt;p&gt;I quickly determined that a &lt;strong&gt;B or B+ model board&lt;/strong&gt; would be best due to its ethernet port (a &lt;strong&gt;MUST&lt;/strong&gt; in my opinion), HDMI/Micro-HDMI ports, and widespread use amongst people making media hubs. After learning more about the available hardware I was deciding between the Pi 3 and Pi 4 boards. The Pi 4, while being more expensive, outpaces the Pi 3 in almost every benchmark, &lt;em&gt;BUT&lt;/em&gt; is extremely hard to find in its &lt;strong&gt;B+ configuration&lt;/strong&gt; due to its recent release. Since I haven&amp;rsquo;t used a Pi before and don&amp;rsquo;t know what exactly the demand would be on the hardware, I decided to opt for the safer option and splurged on the Pi 4 B model.&lt;/p&gt;
+&lt;p&gt;To complement my purchase, I also bought an &lt;strong&gt;SD card&lt;/strong&gt; for installing the OS, a micro-HDMI to HDMI adapter, and a cute little plastic case to keep it all safe.&lt;/p&gt;
 
   &lt;figure class=&#34;left&#34; &gt;
     &lt;img src=&#34;/img/raspPiMediaHub/pi4B.png&#34;   /&gt;
